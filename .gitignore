@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.DS_Store
+engine/data/extra_train.csv
+/data/
+*.db
+*.db-wal
+*.db-shm
+shots/
+.venv/

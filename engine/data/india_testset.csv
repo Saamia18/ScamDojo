@@ -1,0 +1,138 @@
+text,label,kind
+SBI YONO: Your account is blocked. Complete KYC now http://yono-sbi-verify.top or your money will be frozen,1,kyc
+"HDFC Bank customer, PAN update pending. Your netbanking will be suspended today. Click hdfcbank-update.xyz/pan",1,kyc
+"Dear user ur ICICI KYC is expired, update immediately https://icici-kyc.click/login to avoid account closure",1,kyc
+"Axis Bank: ur account will get blocked in 2 hrs, K Y C pending, call 9811122233 now",1,kyc
+"Aapka PNB account KYC adhura hai, aaj hi update karein warna band ho jayega. Link: pnb-secure-kyc.top",1,kyc
+"Sir I am calling from bank. A transaction of Rs 48,000 is pending, please tell me the OTP to cancel it",1,otp
+Your SIM will be blocked. To keep it active reply with the code we just sent you and your Aadhaar number.,1,otp
+"Kotak customer care: we sent a verification code to your number, please read it out so we can reverse the debit.",1,otp
+"Refund pending Rs 3,200. Send the 6 digit OTP to 9876501234 on WhatsApp to receive your money back.",1,otp
+"Hello, I sent you Rs 5000 by mistake. Please approve my collect request to return it, enter your PIN to accept.",1,upi
+"Your cashback of Rs 999 is waiting. Open GPay, tap the request and put your UPI PIN to receive it.",1,upi
+"PhonePe reward: scan this QR code to get Rs 2,000 credited instantly. Enter PIN to confirm.",1,upi
+Congratulations you have won a Samsung Galaxy S24 in the Flipkart anniversary draw! Claim at flipkart-winner.shop before midnight,1,prize
+"Jio lucky customer! You won Rs 10,00,000. Pay Rs 1500 delivery charge to receive the prize. WhatsApp 9123456780",1,prize
+KBC head office: your number won 25 lakh in this month's lottery. Contact manager on 9988776655 to claim.,1,prize
+"Your Paytm points worth Rs 4,999 expire tonight. Redeem here https://paytm-points.live/redeem",1,prize
+You have been selected for a free iPhone 16 as loyal Amazon customer. Pay Rs 99 shipping: amzn-gift.top/claim,1,prize
+Part-time job: just like YouTube videos and earn 4000 rupees daily. Join Telegram t.me/earnmoney9,1,job
+"Hiring! Work from home typing job. Salary 30,000 per month, no experience. Pay Rs 500 registration to start. Call 9090909090",1,job
+"Amazon is hiring for product rating tasks. Earn Rs 200 per review, paid daily. Message us on WhatsApp to begin.",1,job
+"Dear candidate, your CV is selected by Google India. To confirm the offer deposit Rs 7,500 as refundable security.",1,job
+Ghar se kaam karo aur roz 3000 kamao. Sirf mobile chahiye. WhatsApp karein 8899776655,1,job
+India Post: your parcel could not be delivered because address is incomplete. Update at indiapost-track.xyz within 24 hours,1,courier
+"DHL: shipment on hold, pay Rs 75 customs clearance https://dhl-clearance.top/pay",1,courier
+Blue Dart: We tried to deliver but failed. Reschedule delivery and pay Rs 30 fee: bit.ly/bd-redeliver,1,courier
+"Your package is seized at Mumbai customs, pay 12,500 to release. Call officer 9777788888.",1,courier
+Dear customer your electricity connection will be cut at 9.30 tonight due to pending bill. Contact Mr Sharma 9825012345 immediately,1,util
+BESCOM: Your power will be disconnected today evening. Update your bill via https://bescom-billpay.top,1,util
+Gas subsidy cancelled. Re-activate by sharing your Aadhaar and calling 9810099100 today.,1,util
+"Learn trading from experts! Join our WhatsApp VIP group, 200% returns guaranteed in 30 days.",1,invest
+"Invest 10000 get 50000 in one week, 100% safe, crypto arbitrage. Telegram @cryptoking_india",1,invest
+"SEBI registered analyst tips, assured profit daily, join premium group by paying Rs 2999. Call 9000011111",1,invest
+"Double your savings with our gold scheme, guaranteed returns of 40% per month. Limited slots.",1,invest
+"Get Rs 5 lakh instant loan, no CIBIL, no documents. Pay Rs 2000 processing fee and money arrives in 10 minutes.",1,loan
+Aapka loan sanction ho gaya. Bina documents ke. Processing fee Rs 999 bhejein 9234567812 par.,1,loan
+"Pre-approved loan offer for you! Click loan-instant.cfd to receive funds in 5 minutes, zero checks.",1,loan
+This is Mumbai Police cyber cell. Your Aadhaar is linked to a drug parcel. Join Skype video call now or you will be arrested.,1,authority
+TRAI: Your mobile number will be disconnected for illegal advertisements. Press 9 to speak to officer.,1,authority
+Enforcement Directorate notice: money laundering case registered against you. Do not inform family. Call 9555500000,1,authority
+"CBI officer here, you are under digital arrest. Stay on video until we verify your bank accounts.",1,authority
+"Income Tax Department: refund of Rs 15,490 approved. Submit account details at incometax-refund.top to receive it.",1,refund
+"Excess payment refund of Rs 2,300 initiated. Click https://refund-claim.shop/upi and enter your PIN.",1,refund
+Our technician will fix your internet. Please install AnyDesk and tell us the code.,1,remote
+Download QuickSupport from the Play Store and share the ID so we can reverse your failed transaction.,1,remote
+"Dear customer, new SBI rewards app released. Install it from http://sbi-rewards.xyz/SBI_Rewards.apk to redeem points.",1,apk
+Your RTO challan is pending. Download the Parivahan app from this link and pay: rto-challan.top/app.apk,1,apk
+"Please confirm your debit card number, CVV and ATM PIN to complete the bank verification.",1,cred
+Netbanking login details needed to restore your account. Reply with your user id and password.,1,cred
+"Buy 5 Google Play gift cards of Rs 1000 and send me the codes, I'm in a meeting, will pay you back.",1,giftcard
+To avoid legal action pay your pending tax in Amazon Pay gift vouchers and send the codes to this number.,1,giftcard
+"Do not tell anyone about this call, not your family or bank. Your account is being investigated by the cyber cell.",1,secret
+"Keep this confidential: transfer Rs 50,000 to the RBI safe account to protect your savings, call 9811122200.",1,secret
+"Hi Mom, I lost my phone, this is my new number. Please send Rs 15,000 to this account urgently, will explain later.",1,family
+"Papa I'm in trouble, my phone is broken, use this number. Need Rs 20000 right now via GPay, please don't call.",1,family
+Netflix: your payment failed and the account is on hold. Update billing now at netflix-billing-update.top,1,phish
+WhatsApp: your account will expire today. Verify your number at whatsapp-verify.click to continue.,1,phish
+Apple ID locked. Confirm your identity within 24 hours: appleid-unlock.shop/verify,1,phish
+"Dear user, unusual login detected on your Paytm. Secure your account https://paytrn.com/secure",1,phish
+Your Google account will be deleted. Click https://g00gle-support.top/recover to keep it.,1,phish
+Amazon: we could not process your order. Update card details here https://arnazon-india.shop/payment,1,phish
+"Your scholarship of Rs 40,000 is approved. Pay Rs 1,000 processing fee on 9345678123 to receive it.",1,fee
+"Congratulations, your visa job letter is ready. Pay Rs 25,000 as advance for documentation.",1,fee
+Upgrade your SIM to 5G before today or it will be deactivated: airtel-5g-upgrade.top,1,sim
+Your Jio number will be blocked tomorrow. Complete SIM verification here jio-verify.xyz,1,sim
+"Order #4492 cancelled. Refund of Rs 5,499 pending, share your UPI PIN to receive.",1,ecom
+"GST notice: pay penalty of Rs 8,000 today to avoid case. Pay via qr code on this message.",1,tax
+"mParivahan: traffic fine Rs 500 unpaid, license suspended in 24 hours. Pay now at echallan-pay.top",1,rto
+Y0ur b4nk acc0unt is bl0cked. Cl1ck h3re t0 v3rify: sbi-help.top,1,obf
+Dear customer your K Y C is expired. Update at hdfc​bank-kyc.xyz today,1,obf
+"Aapka bijli connection aaj raat kat jayega, abhi officer ko call karein 9830012345",1,hinglish
+"Aapke Paytm par Rs 5000 cashback aaya hai, collect request approve karke PIN daalein",1,hinglish
+"Rs 2,450.00 debited from A/c XX8821 on 11-Nov-26 to VPA swiggy@icici. UPI Ref 431234567. -ICICI Bank",0,bank
+"Your a/c XX4410 is credited with INR 55,000.00 on 10-Nov. Info: SALARY. Avl Bal INR 71,204.15 -HDFC Bank",0,bank
+"OTP for your online purchase of Rs 1,299 at Myntra is 482910. Do not share it with anyone. -Axis Bank",0,bank
+"Dear Customer, your SBI debit card ending 4421 was used for Rs 799 at BigBasket. Not you? Call 1800 1234 right away.",0,bank
+"Your Kotak credit card bill of Rs 14,230 is due on 18 Nov. Pay through the Kotak mobile app. Ignore if paid.",0,bank
+"EMI of Rs 6,845 towards your home loan was successfully debited on 5-Nov. Thank you for banking with us.",0,bank
+Your cheque book request is accepted. It will be delivered in 5-7 working days at your registered address.,0,bank
+"Your FD of Rs 1,00,000 will mature on 30-Nov. Visit the branch or the app to renew or withdraw.",0,bank
+"Reminder: we will never ask for your OTP, PIN, CVV or password. If anyone asks, report at 1930.",0,bank
+"KYC details updated successfully for your SBI account. Thank you, no further action is needed.",0,bank
+729145 is your Zomato login code. It expires in 10 minutes.,0,otp
+Your Uber OTP is 6283. Share it with the driver only after you board.,0,otp
+Use 551203 to verify your phone number on Swiggy. Please don't share this code with anyone.,0,otp
+G-847362 is your Google verification code.,0,otp
+Your order from Amazon has been dispatched and will be delivered by Friday. Track in the app under Your Orders.,0,delivery
+Delhivery: Your package is out for delivery and will reach you today. Your agent will call before arriving.,0,delivery
+Swiggy: Your order is on the way and will reach in 15 minutes. Please keep your phone handy.,0,delivery
+Flipkart: Your return pickup is scheduled for tomorrow between 10am and 2pm. Keep the package ready.,0,delivery
+Your Blinkit order was delivered in 9 minutes. Hope you enjoyed it! Rate your experience in the app.,0,delivery
+"Your IRCTC e-ticket PNR 4455667788 is confirmed. Train 12627, 3A, berth S4/32. Have a pleasant journey.",0,travel
+IndiGo: Web check-in is open for flight 6E 2145 on 14 Nov. Use the IndiGo app to check in.,0,travel
+"Ola: Your cab is arriving in 4 minutes. Driver Suresh, KA01AB1234. Start OTP 4471.",0,travel
+Your FASTag balance is low. Recharge using the official FASTag app to avoid toll delays.,0,travel
+"Hi team, the sprint review is moved to 3 pm. Zoom link is the same as last week.",0,work
+Please find the updated invoice attached. Let me know if you need any changes before Friday.,0,work
+Interview scheduled for Monday 11 am with Priya from HR at Infosys. Meeting link: meet.google.com/xyz-abcd-efg,0,work
+Can you share the Q3 numbers before the 4 pm call? I'll need them for the board deck.,0,work
+Your leave request for 20-22 Nov has been approved by your manager.,0,work
+Reminder: submit your timesheet by Friday EOD. Portal: the usual intranet link.,0,work
+Bro are you coming for the cricket match tomorrow morning? We need one more player.,0,friend
+"Happy Diwali to you and your family! Let's catch up this weekend, it's been ages.",0,friend
+"Just reached home. Thanks for dropping me, call you tomorrow.",0,friend
+Can you lend me your charger for tonight? I'll return it at college tomorrow.,0,friend
+"Dinner at 8 tonight? I'm thinking Chinese, share the location of the place you suggested.",0,friend
+Did you see the match last night? Kohli's century was unbelievable. We won easily!,0,friend
+"I transferred Rs 1,500 for the cab share, please check your GPay and tell me if it shows.",0,friend
+"Bhai tu kab aa raha hai? Sab log ghar pe wait kar rahe hain, mummy ne biryani banayi hai.",0,friend
+"Kal ki class cancel hai, professor bimar hai. Notes group mein daal diye hain.",0,friend
+Mom: Don't forget to take your medicines and call me when you reach. Love you.,0,family
+Papa's flight lands at 6:40 am tomorrow. Can you pick him up from the airport?,0,family
+Happy anniversary Mama Papa! We'll come on Sunday with the cake.,0,family
+Amazon Great Indian Festival starts tomorrow. Prime members get early access at 12 noon. Shop on amazon.in,0,promo
+Your Netflix plan renews on 20 Nov for Rs 649. Manage it anytime under Account settings in the app.,0,promo
+"Myntra: End of Reason Sale starts at midnight, flat 50-80% off. Download the Myntra app to shop.",0,promo
+Swiggy One: free delivery on orders above Rs 199 this weekend. Open the app to see offers.,0,promo
+"Hi Rahul, your Cult.fit membership ends in 7 days. Renew in the app to keep your streak.",0,promo
+Jio: Your recharge of Rs 299 is successful. Plan valid till 12-Dec. Check balance on the MyJio app.,0,telecom
+Airtel: You have used 80% of your daily data. Recharge from the Airtel Thanks app if you need more.,0,telecom
+Your Aadhaar update request has been accepted. Track the status on uidai.gov.in with your URN.,0,govt
+"Income Tax: Your ITR for AY 2025-26 has been processed. Refund, if any, will be sent to your pre-validated bank account.",0,govt
+Your driving licence renewal appointment is confirmed for 20 Nov at RTO Koramangala at 11:30 am.,0,govt
+Semester 5 results are out. Check your marks on the university portal with your roll number.,0,edu
+Placement drive: Accenture will visit campus on 20 Nov. Register on the college placement portal by Friday.,0,edu
+Assignment 3 is due on Sunday 11:59 pm on the LMS. Late submissions will not be accepted.,0,edu
+Reminder: your appointment with Dr. Mehta is tomorrow at 5 pm at Apollo Clinic. Reply 1 to confirm.,0,health
+Your lab reports are ready. Download them from the Thyrocare app using your registered number.,0,health
+You paid Rs 340 to Cafe Coffee Day via PhonePe. Transaction ID T2611121234. Check history in the app.,0,pay
+Rohit requested Rs 600 on UPI for movie tickets. Open your payment app to review and pay if you know him.,0,pay
+"New sign-in to your Google account from a Windows device. If this was you, no action needed. If not, secure your account at myaccount.google.com.",0,security
+Your Instagram login code is 391 244. Don't share it with anyone.,0,security
+"As requested, your SBI debit card ending 4421 has been blocked. Apply for a new card in the YONO app.",0,block
+"Congratulations Aditi, you have cleared the HR round at Wipro. The offer letter will be sent from our official careers email.",0,hr
+"Your electricity bill for October is Rs 1,840. Due date 20 Nov. Pay on the BESCOM official website or app.",0,misc
+Society notice: water supply will be off tomorrow from 10 am to 2 pm for tank cleaning.,0,misc
+Your gas cylinder booking is confirmed. Delivery within 2 days. Delivery person will ask for the OTP shown in your app.,0,misc
+"Library: The book you reserved, Thinking Fast and Slow, is available for pickup till Friday.",0,misc

@@ -1,0 +1,2344 @@
+{
+ "generated": "2026-11-13",
+ "model_version": "scamdojo-0.2",
+ "threshold": 0.5,
+ "dataset": {
+  "seed_rows": 1285,
+  "extra_rows": 0,
+  "scam": 624,
+  "legit": 661,
+  "templates": 108,
+  "train_rows": 1045,
+  "heldout_rows": 240,
+  "split": "by message template (about 1 in 5 templates held out)",
+  "features": 2307
+ },
+ "sets": {
+  "seed_holdout": {
+   "n": 240,
+   "n_scam": 144,
+   "n_legit": 96,
+   "ablation": {
+    "text_only": {
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0,
+     "accuracy": 1.0,
+     "tp": 144,
+     "fp": 0,
+     "tn": 96,
+     "fn": 0
+    },
+    "rules_only": {
+     "precision": 1.0,
+     "recall": 0.882,
+     "f1": 0.937,
+     "accuracy": 0.929,
+     "tp": 127,
+     "fp": 0,
+     "tn": 96,
+     "fn": 17
+    },
+    "links_only": {
+     "precision": 1.0,
+     "recall": 0.257,
+     "f1": 0.409,
+     "accuracy": 0.554,
+     "tp": 37,
+     "fp": 0,
+     "tn": 96,
+     "fn": 107
+    },
+    "fused": {
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0,
+     "accuracy": 1.0,
+     "tp": 144,
+     "fp": 0,
+     "tn": 96,
+     "fn": 0
+    }
+   },
+   "verdicts": {
+    "scam": {
+     "scam": 144,
+     "suspicious": 0,
+     "safe": 0
+    },
+    "legit": {
+     "scam": 0,
+     "suspicious": 12,
+     "safe": 84
+    }
+   },
+   "ci": {
+    "precision": [
+     1.0,
+     1.0
+    ],
+    "recall": [
+     1.0,
+     1.0
+    ],
+    "f1": [
+     1.0,
+     1.0
+    ]
+   },
+   "thresholds": [
+    {
+     "threshold": 0.1,
+     "precision": 0.857,
+     "recall": 1.0,
+     "f1": 0.923,
+     "false_alarms": 24,
+     "missed": 0
+    },
+    {
+     "threshold": 0.15,
+     "precision": 0.862,
+     "recall": 1.0,
+     "f1": 0.926,
+     "false_alarms": 23,
+     "missed": 0
+    },
+    {
+     "threshold": 0.2,
+     "precision": 0.873,
+     "recall": 1.0,
+     "f1": 0.932,
+     "false_alarms": 21,
+     "missed": 0
+    },
+    {
+     "threshold": 0.25,
+     "precision": 0.917,
+     "recall": 1.0,
+     "f1": 0.957,
+     "false_alarms": 13,
+     "missed": 0
+    },
+    {
+     "threshold": 0.3,
+     "precision": 0.923,
+     "recall": 1.0,
+     "f1": 0.96,
+     "false_alarms": 12,
+     "missed": 0
+    },
+    {
+     "threshold": 0.35,
+     "precision": 0.923,
+     "recall": 1.0,
+     "f1": 0.96,
+     "false_alarms": 12,
+     "missed": 0
+    },
+    {
+     "threshold": 0.4,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0,
+     "false_alarms": 0,
+     "missed": 0
+    },
+    {
+     "threshold": 0.45,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0,
+     "false_alarms": 0,
+     "missed": 0
+    },
+    {
+     "threshold": 0.5,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0,
+     "false_alarms": 0,
+     "missed": 0
+    },
+    {
+     "threshold": 0.55,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0,
+     "false_alarms": 0,
+     "missed": 0
+    },
+    {
+     "threshold": 0.6,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0,
+     "false_alarms": 0,
+     "missed": 0
+    },
+    {
+     "threshold": 0.65,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0,
+     "false_alarms": 0,
+     "missed": 0
+    },
+    {
+     "threshold": 0.7,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0,
+     "false_alarms": 0,
+     "missed": 0
+    },
+    {
+     "threshold": 0.75,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0,
+     "false_alarms": 0,
+     "missed": 0
+    },
+    {
+     "threshold": 0.8,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0,
+     "false_alarms": 0,
+     "missed": 0
+    },
+    {
+     "threshold": 0.85,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0,
+     "false_alarms": 0,
+     "missed": 0
+    },
+    {
+     "threshold": 0.9,
+     "precision": 1.0,
+     "recall": 0.965,
+     "f1": 0.982,
+     "false_alarms": 0,
+     "missed": 5
+    }
+   ],
+   "calibration": [
+    {
+     "range": [
+      0.0,
+      0.2
+     ],
+     "n": 75,
+     "scam_rate": 0.0,
+     "mean_risk": 0.021
+    },
+    {
+     "range": [
+      0.2,
+      0.4
+     ],
+     "n": 21,
+     "scam_rate": 0.0,
+     "mean_risk": 0.318
+    },
+    {
+     "range": [
+      0.4,
+      0.6
+     ],
+     "n": 0,
+     "scam_rate": null,
+     "mean_risk": null
+    },
+    {
+     "range": [
+      0.6,
+      0.8
+     ],
+     "n": 0,
+     "scam_rate": null,
+     "mean_risk": null
+    },
+    {
+     "range": [
+      0.8,
+      1.0
+     ],
+     "n": 144,
+     "scam_rate": 1.0,
+     "mean_risk": 0.969
+    }
+   ],
+   "confidence": [
+    {
+     "level": "high",
+     "n": 227,
+     "accuracy": 1.0
+    },
+    {
+     "level": "medium",
+     "n": 13,
+     "accuracy": 1.0
+    },
+    {
+     "level": "low",
+     "n": 0,
+     "accuracy": null
+    }
+   ],
+   "categories": [
+    {
+     "kind": "other",
+     "truth": "scam",
+     "n": 240,
+     "right": 240,
+     "rate": 1.0
+    }
+   ]
+  },
+  "devset": {
+   "n": 137,
+   "n_scam": 71,
+   "n_legit": 66,
+   "ablation": {
+    "text_only": {
+     "precision": 0.985,
+     "recall": 0.93,
+     "f1": 0.957,
+     "accuracy": 0.956,
+     "tp": 66,
+     "fp": 1,
+     "tn": 65,
+     "fn": 5
+    },
+    "rules_only": {
+     "precision": 1.0,
+     "recall": 0.732,
+     "f1": 0.846,
+     "accuracy": 0.861,
+     "tp": 52,
+     "fp": 0,
+     "tn": 66,
+     "fn": 19
+    },
+    "links_only": {
+     "precision": 1.0,
+     "recall": 0.296,
+     "f1": 0.457,
+     "accuracy": 0.635,
+     "tp": 21,
+     "fp": 0,
+     "tn": 66,
+     "fn": 50
+    },
+    "fused": {
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0,
+     "accuracy": 1.0,
+     "tp": 71,
+     "fp": 0,
+     "tn": 66,
+     "fn": 0
+    }
+   },
+   "verdicts": {
+    "scam": {
+     "scam": 69,
+     "suspicious": 2,
+     "safe": 0
+    },
+    "legit": {
+     "scam": 0,
+     "suspicious": 1,
+     "safe": 65
+    }
+   },
+   "ci": {
+    "precision": [
+     1.0,
+     1.0
+    ],
+    "recall": [
+     1.0,
+     1.0
+    ],
+    "f1": [
+     1.0,
+     1.0
+    ]
+   },
+   "thresholds": [
+    {
+     "threshold": 0.1,
+     "precision": 0.866,
+     "recall": 1.0,
+     "f1": 0.928,
+     "false_alarms": 11,
+     "missed": 0
+    },
+    {
+     "threshold": 0.15,
+     "precision": 0.887,
+     "recall": 1.0,
+     "f1": 0.94,
+     "false_alarms": 9,
+     "missed": 0
+    },
+    {
+     "threshold": 0.2,
+     "precision": 0.91,
+     "recall": 1.0,
+     "f1": 0.953,
+     "false_alarms": 7,
+     "missed": 0
+    },
+    {
+     "threshold": 0.25,
+     "precision": 0.922,
+     "recall": 1.0,
+     "f1": 0.959,
+     "false_alarms": 6,
+     "missed": 0
+    },
+    {
+     "threshold": 0.3,
+     "precision": 0.922,
+     "recall": 1.0,
+     "f1": 0.959,
+     "false_alarms": 6,
+     "missed": 0
+    },
+    {
+     "threshold": 0.35,
+     "precision": 0.986,
+     "recall": 1.0,
+     "f1": 0.993,
+     "false_alarms": 1,
+     "missed": 0
+    },
+    {
+     "threshold": 0.4,
+     "precision": 0.986,
+     "recall": 1.0,
+     "f1": 0.993,
+     "false_alarms": 1,
+     "missed": 0
+    },
+    {
+     "threshold": 0.45,
+     "precision": 0.986,
+     "recall": 1.0,
+     "f1": 0.993,
+     "false_alarms": 1,
+     "missed": 0
+    },
+    {
+     "threshold": 0.5,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0,
+     "false_alarms": 0,
+     "missed": 0
+    },
+    {
+     "threshold": 0.55,
+     "precision": 1.0,
+     "recall": 0.986,
+     "f1": 0.993,
+     "false_alarms": 0,
+     "missed": 1
+    },
+    {
+     "threshold": 0.6,
+     "precision": 1.0,
+     "recall": 0.986,
+     "f1": 0.993,
+     "false_alarms": 0,
+     "missed": 1
+    },
+    {
+     "threshold": 0.65,
+     "precision": 1.0,
+     "recall": 0.972,
+     "f1": 0.986,
+     "false_alarms": 0,
+     "missed": 2
+    },
+    {
+     "threshold": 0.7,
+     "precision": 1.0,
+     "recall": 0.958,
+     "f1": 0.978,
+     "false_alarms": 0,
+     "missed": 3
+    },
+    {
+     "threshold": 0.75,
+     "precision": 1.0,
+     "recall": 0.944,
+     "f1": 0.971,
+     "false_alarms": 0,
+     "missed": 4
+    },
+    {
+     "threshold": 0.8,
+     "precision": 1.0,
+     "recall": 0.944,
+     "f1": 0.971,
+     "false_alarms": 0,
+     "missed": 4
+    },
+    {
+     "threshold": 0.85,
+     "precision": 1.0,
+     "recall": 0.859,
+     "f1": 0.924,
+     "false_alarms": 0,
+     "missed": 10
+    },
+    {
+     "threshold": 0.9,
+     "precision": 1.0,
+     "recall": 0.789,
+     "f1": 0.882,
+     "false_alarms": 0,
+     "missed": 15
+    }
+   ],
+   "calibration": [
+    {
+     "range": [
+      0.0,
+      0.2
+     ],
+     "n": 59,
+     "scam_rate": 0.0,
+     "mean_risk": 0.03
+    },
+    {
+     "range": [
+      0.2,
+      0.4
+     ],
+     "n": 6,
+     "scam_rate": 0.0,
+     "mean_risk": 0.321
+    },
+    {
+     "range": [
+      0.4,
+      0.6
+     ],
+     "n": 2,
+     "scam_rate": 0.5,
+     "mean_risk": 0.516
+    },
+    {
+     "range": [
+      0.6,
+      0.8
+     ],
+     "n": 3,
+     "scam_rate": 1.0,
+     "mean_risk": 0.663
+    },
+    {
+     "range": [
+      0.8,
+      1.0
+     ],
+     "n": 67,
+     "scam_rate": 1.0,
+     "mean_risk": 0.95
+    }
+   ],
+   "confidence": [
+    {
+     "level": "high",
+     "n": 119,
+     "accuracy": 1.0
+    },
+    {
+     "level": "medium",
+     "n": 13,
+     "accuracy": 1.0
+    },
+    {
+     "level": "low",
+     "n": 5,
+     "accuracy": 1.0
+    }
+   ],
+   "categories": [
+    {
+     "kind": "bank",
+     "truth": "genuine",
+     "n": 10,
+     "right": 10,
+     "rate": 1.0
+    },
+    {
+     "kind": "friend",
+     "truth": "genuine",
+     "n": 9,
+     "right": 9,
+     "rate": 1.0
+    },
+    {
+     "kind": "otp",
+     "truth": "scam",
+     "n": 8,
+     "right": 8,
+     "rate": 1.0
+    },
+    {
+     "kind": "phish",
+     "truth": "scam",
+     "n": 6,
+     "right": 6,
+     "rate": 1.0
+    },
+    {
+     "kind": "work",
+     "truth": "genuine",
+     "n": 6,
+     "right": 6,
+     "rate": 1.0
+    },
+    {
+     "kind": "delivery",
+     "truth": "genuine",
+     "n": 5,
+     "right": 5,
+     "rate": 1.0
+    },
+    {
+     "kind": "family",
+     "truth": "scam",
+     "n": 5,
+     "right": 5,
+     "rate": 1.0
+    },
+    {
+     "kind": "job",
+     "truth": "scam",
+     "n": 5,
+     "right": 5,
+     "rate": 1.0
+    },
+    {
+     "kind": "kyc",
+     "truth": "scam",
+     "n": 5,
+     "right": 5,
+     "rate": 1.0
+    },
+    {
+     "kind": "prize",
+     "truth": "scam",
+     "n": 5,
+     "right": 5,
+     "rate": 1.0
+    },
+    {
+     "kind": "promo",
+     "truth": "genuine",
+     "n": 5,
+     "right": 5,
+     "rate": 1.0
+    },
+    {
+     "kind": "authority",
+     "truth": "scam",
+     "n": 4,
+     "right": 4,
+     "rate": 1.0
+    },
+    {
+     "kind": "courier",
+     "truth": "scam",
+     "n": 4,
+     "right": 4,
+     "rate": 1.0
+    },
+    {
+     "kind": "invest",
+     "truth": "scam",
+     "n": 4,
+     "right": 4,
+     "rate": 1.0
+    },
+    {
+     "kind": "misc",
+     "truth": "genuine",
+     "n": 4,
+     "right": 4,
+     "rate": 1.0
+    },
+    {
+     "kind": "travel",
+     "truth": "genuine",
+     "n": 4,
+     "right": 4,
+     "rate": 1.0
+    },
+    {
+     "kind": "edu",
+     "truth": "genuine",
+     "n": 3,
+     "right": 3,
+     "rate": 1.0
+    },
+    {
+     "kind": "govt",
+     "truth": "genuine",
+     "n": 3,
+     "right": 3,
+     "rate": 1.0
+    },
+    {
+     "kind": "loan",
+     "truth": "scam",
+     "n": 3,
+     "right": 3,
+     "rate": 1.0
+    },
+    {
+     "kind": "upi",
+     "truth": "scam",
+     "n": 3,
+     "right": 3,
+     "rate": 1.0
+    },
+    {
+     "kind": "util",
+     "truth": "scam",
+     "n": 3,
+     "right": 3,
+     "rate": 1.0
+    },
+    {
+     "kind": "apk",
+     "truth": "scam",
+     "n": 2,
+     "right": 2,
+     "rate": 1.0
+    },
+    {
+     "kind": "cred",
+     "truth": "scam",
+     "n": 2,
+     "right": 2,
+     "rate": 1.0
+    },
+    {
+     "kind": "fee",
+     "truth": "scam",
+     "n": 2,
+     "right": 2,
+     "rate": 1.0
+    },
+    {
+     "kind": "giftcard",
+     "truth": "scam",
+     "n": 2,
+     "right": 2,
+     "rate": 1.0
+    },
+    {
+     "kind": "health",
+     "truth": "genuine",
+     "n": 2,
+     "right": 2,
+     "rate": 1.0
+    },
+    {
+     "kind": "hinglish",
+     "truth": "scam",
+     "n": 2,
+     "right": 2,
+     "rate": 1.0
+    },
+    {
+     "kind": "obf",
+     "truth": "scam",
+     "n": 2,
+     "right": 2,
+     "rate": 1.0
+    },
+    {
+     "kind": "pay",
+     "truth": "genuine",
+     "n": 2,
+     "right": 2,
+     "rate": 1.0
+    },
+    {
+     "kind": "refund",
+     "truth": "scam",
+     "n": 2,
+     "right": 2,
+     "rate": 1.0
+    },
+    {
+     "kind": "remote",
+     "truth": "scam",
+     "n": 2,
+     "right": 2,
+     "rate": 1.0
+    },
+    {
+     "kind": "secret",
+     "truth": "scam",
+     "n": 2,
+     "right": 2,
+     "rate": 1.0
+    },
+    {
+     "kind": "security",
+     "truth": "genuine",
+     "n": 2,
+     "right": 2,
+     "rate": 1.0
+    },
+    {
+     "kind": "sim",
+     "truth": "scam",
+     "n": 2,
+     "right": 2,
+     "rate": 1.0
+    },
+    {
+     "kind": "telecom",
+     "truth": "genuine",
+     "n": 2,
+     "right": 2,
+     "rate": 1.0
+    },
+    {
+     "kind": "block",
+     "truth": "genuine",
+     "n": 1,
+     "right": 1,
+     "rate": 1.0
+    },
+    {
+     "kind": "ecom",
+     "truth": "scam",
+     "n": 1,
+     "right": 1,
+     "rate": 1.0
+    },
+    {
+     "kind": "hr",
+     "truth": "genuine",
+     "n": 1,
+     "right": 1,
+     "rate": 1.0
+    },
+    {
+     "kind": "rto",
+     "truth": "scam",
+     "n": 1,
+     "right": 1,
+     "rate": 1.0
+    },
+    {
+     "kind": "tax",
+     "truth": "scam",
+     "n": 1,
+     "right": 1,
+     "rate": 1.0
+    }
+   ]
+  },
+  "blindset": {
+   "n": 60,
+   "n_scam": 30,
+   "n_legit": 30,
+   "ablation": {
+    "text_only": {
+     "precision": 0.926,
+     "recall": 0.833,
+     "f1": 0.877,
+     "accuracy": 0.883,
+     "tp": 25,
+     "fp": 2,
+     "tn": 28,
+     "fn": 5
+    },
+    "rules_only": {
+     "precision": 0.773,
+     "recall": 0.567,
+     "f1": 0.654,
+     "accuracy": 0.7,
+     "tp": 17,
+     "fp": 5,
+     "tn": 25,
+     "fn": 13
+    },
+    "links_only": {
+     "precision": 1.0,
+     "recall": 0.233,
+     "f1": 0.378,
+     "accuracy": 0.617,
+     "tp": 7,
+     "fp": 0,
+     "tn": 30,
+     "fn": 23
+    },
+    "fused": {
+     "precision": 0.8,
+     "recall": 0.933,
+     "f1": 0.862,
+     "accuracy": 0.85,
+     "tp": 28,
+     "fp": 7,
+     "tn": 23,
+     "fn": 2
+    }
+   },
+   "verdicts": {
+    "scam": {
+     "scam": 25,
+     "suspicious": 5,
+     "safe": 0
+    },
+    "legit": {
+     "scam": 5,
+     "suspicious": 4,
+     "safe": 21
+    }
+   },
+   "ci": {
+    "precision": [
+     0.657,
+     0.931
+    ],
+    "recall": [
+     0.828,
+     1.0
+    ],
+    "f1": [
+     0.75,
+     0.941
+    ]
+   },
+   "thresholds": [
+    {
+     "threshold": 0.1,
+     "precision": 0.667,
+     "recall": 1.0,
+     "f1": 0.8,
+     "false_alarms": 15,
+     "missed": 0
+    },
+    {
+     "threshold": 0.15,
+     "precision": 0.75,
+     "recall": 1.0,
+     "f1": 0.857,
+     "false_alarms": 10,
+     "missed": 0
+    },
+    {
+     "threshold": 0.2,
+     "precision": 0.75,
+     "recall": 1.0,
+     "f1": 0.857,
+     "false_alarms": 10,
+     "missed": 0
+    },
+    {
+     "threshold": 0.25,
+     "precision": 0.769,
+     "recall": 1.0,
+     "f1": 0.87,
+     "false_alarms": 9,
+     "missed": 0
+    },
+    {
+     "threshold": 0.3,
+     "precision": 0.769,
+     "recall": 1.0,
+     "f1": 0.87,
+     "false_alarms": 9,
+     "missed": 0
+    },
+    {
+     "threshold": 0.35,
+     "precision": 0.769,
+     "recall": 1.0,
+     "f1": 0.87,
+     "false_alarms": 9,
+     "missed": 0
+    },
+    {
+     "threshold": 0.4,
+     "precision": 0.806,
+     "recall": 0.967,
+     "f1": 0.879,
+     "false_alarms": 7,
+     "missed": 1
+    },
+    {
+     "threshold": 0.45,
+     "precision": 0.806,
+     "recall": 0.967,
+     "f1": 0.879,
+     "false_alarms": 7,
+     "missed": 1
+    },
+    {
+     "threshold": 0.5,
+     "precision": 0.8,
+     "recall": 0.933,
+     "f1": 0.862,
+     "false_alarms": 7,
+     "missed": 2
+    },
+    {
+     "threshold": 0.55,
+     "precision": 0.824,
+     "recall": 0.933,
+     "f1": 0.875,
+     "false_alarms": 6,
+     "missed": 2
+    },
+    {
+     "threshold": 0.6,
+     "precision": 0.839,
+     "recall": 0.867,
+     "f1": 0.852,
+     "false_alarms": 5,
+     "missed": 4
+    },
+    {
+     "threshold": 0.65,
+     "precision": 0.833,
+     "recall": 0.833,
+     "f1": 0.833,
+     "false_alarms": 5,
+     "missed": 5
+    },
+    {
+     "threshold": 0.7,
+     "precision": 0.889,
+     "recall": 0.8,
+     "f1": 0.842,
+     "false_alarms": 3,
+     "missed": 6
+    },
+    {
+     "threshold": 0.75,
+     "precision": 0.923,
+     "recall": 0.8,
+     "f1": 0.857,
+     "false_alarms": 2,
+     "missed": 6
+    },
+    {
+     "threshold": 0.8,
+     "precision": 0.92,
+     "recall": 0.767,
+     "f1": 0.836,
+     "false_alarms": 2,
+     "missed": 7
+    },
+    {
+     "threshold": 0.85,
+     "precision": 0.958,
+     "recall": 0.767,
+     "f1": 0.852,
+     "false_alarms": 1,
+     "missed": 7
+    },
+    {
+     "threshold": 0.9,
+     "precision": 1.0,
+     "recall": 0.667,
+     "f1": 0.8,
+     "false_alarms": 0,
+     "missed": 10
+    }
+   ],
+   "calibration": [
+    {
+     "range": [
+      0.0,
+      0.2
+     ],
+     "n": 20,
+     "scam_rate": 0.0,
+     "mean_risk": 0.047
+    },
+    {
+     "range": [
+      0.2,
+      0.4
+     ],
+     "n": 4,
+     "scam_rate": 0.25,
+     "mean_risk": 0.339
+    },
+    {
+     "range": [
+      0.4,
+      0.6
+     ],
+     "n": 5,
+     "scam_rate": 0.6,
+     "mean_risk": 0.545
+    },
+    {
+     "range": [
+      0.6,
+      0.8
+     ],
+     "n": 6,
+     "scam_rate": 0.5,
+     "mean_risk": 0.683
+    },
+    {
+     "range": [
+      0.8,
+      1.0
+     ],
+     "n": 25,
+     "scam_rate": 0.92,
+     "mean_risk": 0.935
+    }
+   ],
+   "confidence": [
+    {
+     "level": "high",
+     "n": 41,
+     "accuracy": 1.0
+    },
+    {
+     "level": "medium",
+     "n": 10,
+     "accuracy": 0.6
+    },
+    {
+     "level": "low",
+     "n": 9,
+     "accuracy": 0.444
+    }
+   ],
+   "categories": [
+    {
+     "kind": "friend",
+     "truth": "genuine",
+     "n": 6,
+     "right": 3,
+     "rate": 0.5
+    },
+    {
+     "kind": "otp",
+     "truth": "scam",
+     "n": 4,
+     "right": 2,
+     "rate": 0.5
+    },
+    {
+     "kind": "subtle",
+     "truth": "scam",
+     "n": 2,
+     "right": 1,
+     "rate": 0.5
+    },
+    {
+     "kind": "travel",
+     "truth": "genuine",
+     "n": 2,
+     "right": 1,
+     "rate": 0.5
+    },
+    {
+     "kind": "bank",
+     "truth": "genuine",
+     "n": 5,
+     "right": 3,
+     "rate": 0.6
+    },
+    {
+     "kind": "family",
+     "truth": "scam",
+     "n": 3,
+     "right": 3,
+     "rate": 1.0
+    },
+    {
+     "kind": "promo",
+     "truth": "genuine",
+     "n": 3,
+     "right": 3,
+     "rate": 1.0
+    },
+    {
+     "kind": "work",
+     "truth": "genuine",
+     "n": 3,
+     "right": 3,
+     "rate": 1.0
+    },
+    {
+     "kind": "authority",
+     "truth": "scam",
+     "n": 2,
+     "right": 2,
+     "rate": 1.0
+    },
+    {
+     "kind": "courier",
+     "truth": "scam",
+     "n": 2,
+     "right": 2,
+     "rate": 1.0
+    },
+    {
+     "kind": "delivery",
+     "truth": "genuine",
+     "n": 2,
+     "right": 2,
+     "rate": 1.0
+    },
+    {
+     "kind": "govt",
+     "truth": "genuine",
+     "n": 2,
+     "right": 2,
+     "rate": 1.0
+    },
+    {
+     "kind": "hinglish",
+     "truth": "scam",
+     "n": 2,
+     "right": 2,
+     "rate": 1.0
+    },
+    {
+     "kind": "invest",
+     "truth": "scam",
+     "n": 2,
+     "right": 2,
+     "rate": 1.0
+    },
+    {
+     "kind": "job",
+     "truth": "scam",
+     "n": 2,
+     "right": 2,
+     "rate": 1.0
+    },
+    {
+     "kind": "kyc",
+     "truth": "scam",
+     "n": 2,
+     "right": 2,
+     "rate": 1.0
+    },
+    {
+     "kind": "phish",
+     "truth": "scam",
+     "n": 2,
+     "right": 2,
+     "rate": 1.0
+    },
+    {
+     "kind": "prize",
+     "truth": "scam",
+     "n": 2,
+     "right": 2,
+     "rate": 1.0
+    },
+    {
+     "kind": "apk",
+     "truth": "scam",
+     "n": 1,
+     "right": 1,
+     "rate": 1.0
+    },
+    {
+     "kind": "cred",
+     "truth": "scam",
+     "n": 1,
+     "right": 1,
+     "rate": 1.0
+    },
+    {
+     "kind": "edu",
+     "truth": "genuine",
+     "n": 1,
+     "right": 1,
+     "rate": 1.0
+    },
+    {
+     "kind": "health",
+     "truth": "genuine",
+     "n": 1,
+     "right": 1,
+     "rate": 1.0
+    },
+    {
+     "kind": "loan",
+     "truth": "scam",
+     "n": 1,
+     "right": 1,
+     "rate": 1.0
+    },
+    {
+     "kind": "misc",
+     "truth": "genuine",
+     "n": 1,
+     "right": 1,
+     "rate": 1.0
+    },
+    {
+     "kind": "obf",
+     "truth": "scam",
+     "n": 1,
+     "right": 1,
+     "rate": 1.0
+    },
+    {
+     "kind": "pay",
+     "truth": "genuine",
+     "n": 1,
+     "right": 1,
+     "rate": 1.0
+    },
+    {
+     "kind": "refund",
+     "truth": "scam",
+     "n": 1,
+     "right": 1,
+     "rate": 1.0
+    },
+    {
+     "kind": "remote",
+     "truth": "scam",
+     "n": 1,
+     "right": 1,
+     "rate": 1.0
+    },
+    {
+     "kind": "upi",
+     "truth": "scam",
+     "n": 1,
+     "right": 1,
+     "rate": 1.0
+    },
+    {
+     "kind": "util",
+     "truth": "scam",
+     "n": 1,
+     "right": 1,
+     "rate": 1.0
+    }
+   ]
+  },
+  "cards": {
+   "n": 55,
+   "n_scam": 35,
+   "n_legit": 20,
+   "ablation": {
+    "text_only": {
+     "precision": 0.944,
+     "recall": 0.971,
+     "f1": 0.958,
+     "accuracy": 0.945,
+     "tp": 34,
+     "fp": 2,
+     "tn": 18,
+     "fn": 1
+    },
+    "rules_only": {
+     "precision": 0.923,
+     "recall": 0.686,
+     "f1": 0.787,
+     "accuracy": 0.764,
+     "tp": 24,
+     "fp": 2,
+     "tn": 18,
+     "fn": 11
+    },
+    "links_only": {
+     "precision": 1.0,
+     "recall": 0.314,
+     "f1": 0.478,
+     "accuracy": 0.564,
+     "tp": 11,
+     "fp": 0,
+     "tn": 20,
+     "fn": 24
+    },
+    "fused": {
+     "precision": 0.944,
+     "recall": 0.971,
+     "f1": 0.958,
+     "accuracy": 0.945,
+     "tp": 34,
+     "fp": 2,
+     "tn": 18,
+     "fn": 1
+    }
+   },
+   "verdicts": {
+    "scam": {
+     "scam": 34,
+     "suspicious": 1,
+     "safe": 0
+    },
+    "legit": {
+     "scam": 2,
+     "suspicious": 2,
+     "safe": 16
+    }
+   },
+   "ci": {
+    "precision": [
+     0.857,
+     1.0
+    ],
+    "recall": [
+     0.906,
+     1.0
+    ],
+    "f1": [
+     0.9,
+     1.0
+    ]
+   },
+   "thresholds": [
+    {
+     "threshold": 0.1,
+     "precision": 0.833,
+     "recall": 1.0,
+     "f1": 0.909,
+     "false_alarms": 7,
+     "missed": 0
+    },
+    {
+     "threshold": 0.15,
+     "precision": 0.875,
+     "recall": 1.0,
+     "f1": 0.933,
+     "false_alarms": 5,
+     "missed": 0
+    },
+    {
+     "threshold": 0.2,
+     "precision": 0.875,
+     "recall": 1.0,
+     "f1": 0.933,
+     "false_alarms": 5,
+     "missed": 0
+    },
+    {
+     "threshold": 0.25,
+     "precision": 0.875,
+     "recall": 1.0,
+     "f1": 0.933,
+     "false_alarms": 5,
+     "missed": 0
+    },
+    {
+     "threshold": 0.3,
+     "precision": 0.897,
+     "recall": 1.0,
+     "f1": 0.946,
+     "false_alarms": 4,
+     "missed": 0
+    },
+    {
+     "threshold": 0.35,
+     "precision": 0.897,
+     "recall": 1.0,
+     "f1": 0.946,
+     "false_alarms": 4,
+     "missed": 0
+    },
+    {
+     "threshold": 0.4,
+     "precision": 0.897,
+     "recall": 1.0,
+     "f1": 0.946,
+     "false_alarms": 4,
+     "missed": 0
+    },
+    {
+     "threshold": 0.45,
+     "precision": 0.919,
+     "recall": 0.971,
+     "f1": 0.944,
+     "false_alarms": 3,
+     "missed": 1
+    },
+    {
+     "threshold": 0.5,
+     "precision": 0.944,
+     "recall": 0.971,
+     "f1": 0.958,
+     "false_alarms": 2,
+     "missed": 1
+    },
+    {
+     "threshold": 0.55,
+     "precision": 0.944,
+     "recall": 0.971,
+     "f1": 0.958,
+     "false_alarms": 2,
+     "missed": 1
+    },
+    {
+     "threshold": 0.6,
+     "precision": 0.944,
+     "recall": 0.971,
+     "f1": 0.958,
+     "false_alarms": 2,
+     "missed": 1
+    },
+    {
+     "threshold": 0.65,
+     "precision": 0.944,
+     "recall": 0.971,
+     "f1": 0.958,
+     "false_alarms": 2,
+     "missed": 1
+    },
+    {
+     "threshold": 0.7,
+     "precision": 0.971,
+     "recall": 0.971,
+     "f1": 0.971,
+     "false_alarms": 1,
+     "missed": 1
+    },
+    {
+     "threshold": 0.75,
+     "precision": 0.971,
+     "recall": 0.943,
+     "f1": 0.957,
+     "false_alarms": 1,
+     "missed": 2
+    },
+    {
+     "threshold": 0.8,
+     "precision": 1.0,
+     "recall": 0.914,
+     "f1": 0.955,
+     "false_alarms": 0,
+     "missed": 3
+    },
+    {
+     "threshold": 0.85,
+     "precision": 1.0,
+     "recall": 0.886,
+     "f1": 0.939,
+     "false_alarms": 0,
+     "missed": 4
+    },
+    {
+     "threshold": 0.9,
+     "precision": 1.0,
+     "recall": 0.8,
+     "f1": 0.889,
+     "false_alarms": 0,
+     "missed": 7
+    }
+   ],
+   "calibration": [
+    {
+     "range": [
+      0.0,
+      0.2
+     ],
+     "n": 15,
+     "scam_rate": 0.0,
+     "mean_risk": 0.036
+    },
+    {
+     "range": [
+      0.2,
+      0.4
+     ],
+     "n": 1,
+     "scam_rate": 0.0,
+     "mean_risk": 0.284
+    },
+    {
+     "range": [
+      0.4,
+      0.6
+     ],
+     "n": 3,
+     "scam_rate": 0.333,
+     "mean_risk": 0.438
+    },
+    {
+     "range": [
+      0.6,
+      0.8
+     ],
+     "n": 4,
+     "scam_rate": 0.5,
+     "mean_risk": 0.741
+    },
+    {
+     "range": [
+      0.8,
+      1.0
+     ],
+     "n": 32,
+     "scam_rate": 1.0,
+     "mean_risk": 0.949
+    }
+   ],
+   "confidence": [
+    {
+     "level": "high",
+     "n": 45,
+     "accuracy": 1.0
+    },
+    {
+     "level": "medium",
+     "n": 7,
+     "accuracy": 0.714
+    },
+    {
+     "level": "low",
+     "n": 3,
+     "accuracy": 0.667
+    }
+   ],
+   "categories": [
+    {
+     "kind": "jackal",
+     "truth": "scam",
+     "n": 11,
+     "right": 10,
+     "rate": 0.909
+    },
+    {
+     "kind": "kraken",
+     "truth": "scam",
+     "n": 11,
+     "right": 10,
+     "rate": 0.909
+    },
+    {
+     "kind": "llama",
+     "truth": "scam",
+     "n": 11,
+     "right": 10,
+     "rate": 0.909
+    },
+    {
+     "kind": "cobra",
+     "truth": "scam",
+     "n": 11,
+     "right": 11,
+     "rate": 1.0
+    },
+    {
+     "kind": "octopus",
+     "truth": "scam",
+     "n": 11,
+     "right": 11,
+     "rate": 1.0
+    }
+   ]
+  }
+ },
+ "failures": {
+  "seed_holdout": [],
+  "devset": [],
+  "blindset": [
+   {
+    "text": "Don't worry, this is only for verification. Tell me the 4 digit code that came on your phone so I can unblock your card.",
+    "truth": "scam",
+    "risk": 0.398,
+    "verdict": "suspicious",
+    "components": {
+     "text": 0.469,
+     "rules": 0.0,
+     "links": 0.0,
+     "upi": 0.0
+    },
+    "kind": "otp",
+    "why": []
+   },
+   {
+    "text": "Hi, I found your number from a job site. I have a simple part time role, 20 minutes a day, daily payments. Interested? Reply YES and I'll send details on Telegram.",
+    "truth": "scam",
+    "risk": 0.471,
+    "verdict": "suspicious",
+    "components": {
+     "text": 0.555,
+     "rules": 0.0,
+     "links": 0.0,
+     "upi": 0.0
+    },
+    "kind": "subtle",
+    "why": []
+   },
+   {
+    "text": "Dear Customer, kindly visit your home branch with ID proof to update your KYC. The last date is 31 Dec. No online link is required.",
+    "truth": "legit",
+    "risk": 0.667,
+    "verdict": "scam",
+    "components": {
+     "text": 0.009,
+     "rules": 0.665,
+     "links": 0.0,
+     "upi": 0.0
+    },
+    "kind": "bank",
+    "why": [
+     "Fake KYC / account-update pressure"
+    ]
+   },
+   {
+    "text": "SBI: Never click on links in SMS asking you to update KYC or account details. SBI never asks for OTP. Report fraud at cybercrime.gov.in.",
+    "truth": "legit",
+    "risk": 0.679,
+    "verdict": "scam",
+    "components": {
+     "text": 0.049,
+     "rules": 0.665,
+     "links": 0.0,
+     "upi": 0.0
+    },
+    "kind": "bank",
+    "why": [
+     "Fake KYC / account-update pressure"
+    ]
+   },
+   {
+    "text": "Your OTP to log in to Zerodha Kite is 774120. Valid for 5 minutes. Do not share with anyone.",
+    "truth": "legit",
+    "risk": 0.57,
+    "verdict": "suspicious",
+    "components": {
+     "text": 0.001,
+     "rules": 0.57,
+     "links": 0.0,
+     "upi": 0.0
+    },
+    "kind": "otp",
+    "why": [
+     "Tells you to keep it secret"
+    ]
+   },
+   {
+    "text": "Your Rapido ride has been booked. Captain Ramesh will arrive in 3 minutes. Share OTP 5521 to start the trip.",
+    "truth": "legit",
+    "risk": 0.876,
+    "verdict": "scam",
+    "components": {
+     "text": 0.042,
+     "rules": 0.872,
+     "links": 0.0,
+     "upi": 0.0
+    },
+    "kind": "travel",
+    "why": [
+     "Asks for your OTP, PIN or password",
+     "Rushes you to act"
+    ]
+   },
+   {
+    "text": "Congrats yaar!! You won the hackathon, treat tonight at my place?",
+    "truth": "legit",
+    "risk": 0.718,
+    "verdict": "scam",
+    "components": {
+     "text": 0.186,
+     "rules": 0.665,
+     "links": 0.0,
+     "upi": 0.0
+    },
+    "kind": "friend",
+    "why": [
+     "Says you won something you never entered"
+    ]
+   },
+   {
+    "text": "Arre bhai blocked ho gaya kya tera number? Call nahi lag raha, WhatsApp pe reply kar.",
+    "truth": "legit",
+    "risk": 0.807,
+    "verdict": "scam",
+    "components": {
+     "text": 0.95,
+     "rules": 0.0,
+     "links": 0.0,
+     "upi": 0.0
+    },
+    "kind": "friend",
+    "why": []
+   },
+   {
+    "text": "Machaan, college WhatsApp group mein notice aaya hai, kal ki exam postpone ho gayi.",
+    "truth": "legit",
+    "risk": 0.543,
+    "verdict": "suspicious",
+    "components": {
+     "text": 0.639,
+     "rules": 0.0,
+     "links": 0.0,
+     "upi": 0.0
+    },
+    "kind": "friend",
+    "why": []
+   }
+  ],
+  "cards": [
+   {
+    "text": "Beta, bank wale ne call kiya tha KYC ke liye. Maine bola main branch aake karunga. Theek hai na?",
+    "truth": "legit",
+    "risk": 0.769,
+    "verdict": "scam",
+    "components": {
+     "text": 0.904,
+     "rules": 0.0,
+     "links": 0.0,
+     "upi": 0.0
+    },
+    "kind": "kraken",
+    "why": []
+   },
+   {
+    "text": "Congratulations! Your fest raffle ticket #214 won the second prize. Collect your hamper from the student desk with your ID.",
+    "truth": "legit",
+    "risk": 0.699,
+    "verdict": "scam",
+    "components": {
+     "text": 0.119,
+     "rules": 0.665,
+     "links": 0.0,
+     "upi": 0.0
+    },
+    "kind": "llama",
+    "why": [
+     "Says you won something you never entered"
+    ]
+   },
+   {
+    "text": "Hi, I'm HR from Amazon. Part-time task job, 30 min/day, Rs 15,000 per week. Telegram me for details.",
+    "truth": "scam",
+    "risk": 0.425,
+    "verdict": "suspicious",
+    "components": {
+     "text": 0.5,
+     "rules": 0.0,
+     "links": 0.0,
+     "upi": 0.0
+    },
+    "kind": "jackal",
+    "why": []
+   }
+  ]
+ },
+ "top_features": {
+  "scam": [
+   {
+    "feature": "urgent",
+    "weight": 4.0378
+   },
+   {
+    "feature": "now",
+    "weight": 3.8399
+   },
+   {
+    "feature": "pending",
+    "weight": 3.6414
+   },
+   {
+    "feature": "receive",
+    "weight": 3.5243
+   },
+   {
+    "feature": "approved",
+    "weight": 3.469
+   },
+   {
+    "feature": "notice",
+    "weight": 3.2961
+   },
+   {
+    "feature": "claim",
+    "weight": 3.2821
+   },
+   {
+    "feature": "hours",
+    "weight": 3.2515
+   },
+   {
+    "feature": "alert",
+    "weight": 3.1689
+   },
+   {
+    "feature": "avoid",
+    "weight": 3.0576
+   },
+   {
+    "feature": "officer",
+    "weight": 2.9546
+   },
+   {
+    "feature": "karein",
+    "weight": 2.9232
+   }
+  ],
+  "safe": [
+   {
+    "feature": "order",
+    "weight": -5.2595
+   },
+   {
+    "feature": "for",
+    "weight": -5.1205
+   },
+   {
+    "feature": "app",
+    "weight": -4.6969
+   },
+   {
+    "feature": "on",
+    "weight": -4.4145
+   },
+   {
+    "feature": "nov",
+    "weight": -4.3657
+   },
+   {
+    "feature": "dec",
+    "weight": -4.1721
+   },
+   {
+    "feature": "never",
+    "weight": -3.9868
+   },
+   {
+    "feature": "hello",
+    "weight": -3.4272
+   },
+   {
+    "feature": "pm",
+    "weight": -3.2709
+   },
+   {
+    "feature": "check",
+    "weight": -3.0029
+   },
+   {
+    "feature": "login",
+    "weight": -2.9152
+   },
+   {
+    "feature": "if",
+    "weight": -2.8736
+   }
+  ]
+ },
+ "rule_stats": [
+  {
+   "id": "secrecy",
+   "title": "Tells you to keep it secret",
+   "fires_scam": 4,
+   "fires_genuine": 2,
+   "precision": 0.667
+  },
+  {
+   "id": "urgency",
+   "title": "Rushes you to act",
+   "fires_scam": 28,
+   "fires_genuine": 8,
+   "precision": 0.778
+  },
+  {
+   "id": "prize",
+   "title": "Says you won something you never entered",
+   "fires_scam": 8,
+   "fires_genuine": 2,
+   "precision": 0.8
+  },
+  {
+   "id": "fake_kyc",
+   "title": "Fake KYC / account-update pressure",
+   "fires_scam": 11,
+   "fires_genuine": 2,
+   "precision": 0.846
+  },
+  {
+   "id": "otp_ask",
+   "title": "Asks for your OTP, PIN or password",
+   "fires_scam": 17,
+   "fires_genuine": 1,
+   "precision": 0.944
+  },
+  {
+   "id": "contact_number",
+   "title": "Pushes you to call a number in the message",
+   "fires_scam": 17,
+   "fires_genuine": 0,
+   "precision": 1.0
+  },
+  {
+   "id": "advance_fee",
+   "title": "Asks for a small fee before you receive anything",
+   "fires_scam": 14,
+   "fires_genuine": 0,
+   "precision": 1.0
+  },
+  {
+   "id": "account_threat",
+   "title": "Threatens to block or close something",
+   "fires_scam": 12,
+   "fires_genuine": 0,
+   "precision": 1.0
+  },
+  {
+   "id": "courier",
+   "title": "Fake parcel / delivery problem",
+   "fires_scam": 10,
+   "fires_genuine": 0,
+   "precision": 1.0
+  },
+  {
+   "id": "upi_collect",
+   "title": "Tries to make you approve a payment",
+   "fires_scam": 7,
+   "fires_genuine": 0,
+   "precision": 1.0
+  },
+  {
+   "id": "authority",
+   "title": "Pretends to be police or a government agency",
+   "fires_scam": 6,
+   "fires_genuine": 0,
+   "precision": 1.0
+  },
+  {
+   "id": "tax_refund",
+   "title": "Refund bait",
+   "fires_scam": 5,
+   "fires_genuine": 0,
+   "precision": 1.0
+  },
+  {
+   "id": "off_platform",
+   "title": "Moves you to WhatsApp or Telegram",
+   "fires_scam": 5,
+   "fires_genuine": 0,
+   "precision": 1.0
+  },
+  {
+   "id": "sim_upgrade",
+   "title": "Fake SIM block / upgrade",
+   "fires_scam": 4,
+   "fires_genuine": 0,
+   "precision": 1.0
+  },
+  {
+   "id": "job_scam",
+   "title": "Too-good-to-be-true job offer",
+   "fires_scam": 4,
+   "fires_genuine": 0,
+   "precision": 1.0
+  },
+  {
+   "id": "utility_threat",
+   "title": "Fake electricity/bill disconnection",
+   "fires_scam": 4,
+   "fires_genuine": 0,
+   "precision": 1.0
+  },
+  {
+   "id": "invest",
+   "title": "Guaranteed returns / investment tips",
+   "fires_scam": 4,
+   "fires_genuine": 0,
+   "precision": 1.0
+  },
+  {
+   "id": "credential",
+   "title": "Asks for card or login details",
+   "fires_scam": 3,
+   "fires_genuine": 0,
+   "precision": 1.0
+  },
+  {
+   "id": "loan",
+   "title": "Instant loan with no checks",
+   "fires_scam": 3,
+   "fires_genuine": 0,
+   "precision": 1.0
+  },
+  {
+   "id": "remote_access",
+   "title": "Asks you to install a remote-control app",
+   "fires_scam": 3,
+   "fires_genuine": 0,
+   "precision": 1.0
+  },
+  {
+   "id": "apk",
+   "title": "Pushes you to install an app from a link",
+   "fires_scam": 3,
+   "fires_genuine": 0,
+   "precision": 1.0
+  },
+  {
+   "id": "family_impersonation",
+   "title": "Pretends to be a relative in trouble",
+   "fires_scam": 3,
+   "fires_genuine": 0,
+   "precision": 1.0
+  },
+  {
+   "id": "click_link",
+   "title": "Tells you to tap a link",
+   "fires_scam": 2,
+   "fires_genuine": 0,
+   "precision": 1.0
+  },
+  {
+   "id": "guarantee",
+   "title": "Over-the-top promises",
+   "fires_scam": 1,
+   "fires_genuine": 0,
+   "precision": 1.0
+  }
+ ],
+ "evasion": {
+  "n": 136,
+  "baseline_off": 0.978,
+  "baseline_on": 0.978,
+  "rows": [
+   {
+    "id": "zero_width",
+    "label": "Hidden zero-width characters",
+    "changed": 88,
+    "recall_off": 0.949,
+    "recall_on": 0.978
+   },
+   {
+    "id": "homoglyph",
+    "label": "Look-alike letters (Cyrillic)",
+    "changed": 80,
+    "recall_off": 0.956,
+    "recall_on": 0.978
+   },
+   {
+    "id": "spaced",
+    "label": "Spaced-out words (K Y C)",
+    "changed": 87,
+    "recall_off": 0.919,
+    "recall_on": 0.978
+   },
+   {
+    "id": "leet",
+    "label": "Leetspeak (b4nk, acc0unt)",
+    "changed": 77,
+    "recall_off": 0.941,
+    "recall_on": 0.963
+   },
+   {
+    "id": "mixed",
+    "label": "Hidden characters + look-alike letters",
+    "changed": 88,
+    "recall_off": 0.949,
+    "recall_on": 0.978
+   },
+   {
+    "id": "casing",
+    "label": "aLtErNaTiNg cAsE",
+    "changed": 136,
+    "recall_off": 0.978,
+    "recall_on": 0.978
+   }
+  ]
+ },
+ "link_benchmark": {
+  "n": 94,
+  "n_phish": 45,
+  "n_genuine": 49,
+  "at_050": {
+   "threshold": 0.5,
+   "precision": 1.0,
+   "recall": 0.889,
+   "f1": 0.941,
+   "tp": 40,
+   "fp": 0,
+   "tn": 49,
+   "fn": 5
+  },
+  "at_030": {
+   "threshold": 0.3,
+   "precision": 0.978,
+   "recall": 1.0,
+   "f1": 0.989,
+   "tp": 45,
+   "fp": 1,
+   "tn": 48,
+   "fn": 0
+  },
+  "by_kind": [
+   {
+    "kind": "official",
+    "truth": "genuine",
+    "n": 26,
+    "right": 26
+   },
+   {
+    "kind": "unfamiliar-genuine",
+    "truth": "genuine",
+    "n": 23,
+    "right": 23
+   },
+   {
+    "kind": "apk",
+    "truth": "phishing",
+    "n": 2,
+    "right": 2
+   },
+   {
+    "kind": "at-sign",
+    "truth": "phishing",
+    "n": 1,
+    "right": 1
+   },
+   {
+    "kind": "free-hosting",
+    "truth": "phishing",
+    "n": 3,
+    "right": 3
+   },
+   {
+    "kind": "generic-bait",
+    "truth": "phishing",
+    "n": 3,
+    "right": 0
+   },
+   {
+    "kind": "ip-host",
+    "truth": "phishing",
+    "n": 2,
+    "right": 2
+   },
+   {
+    "kind": "lookalike-brand",
+    "truth": "phishing",
+    "n": 23,
+    "right": 23
+   },
+   {
+    "kind": "punycode",
+    "truth": "phishing",
+    "n": 1,
+    "right": 1
+   },
+   {
+    "kind": "shortener",
+    "truth": "phishing",
+    "n": 4,
+    "right": 3
+   },
+   {
+    "kind": "subdomain-decoy",
+    "truth": "phishing",
+    "n": 2,
+    "right": 2
+   },
+   {
+    "kind": "typosquat",
+    "truth": "phishing",
+    "n": 3,
+    "right": 3
+   },
+   {
+    "kind": "unknown-brand",
+    "truth": "phishing",
+    "n": 1,
+    "right": 0
+   }
+  ],
+  "misses": [
+   {
+    "url": "https://amzn-gift.top/claim",
+    "truth": "phishing",
+    "risk": 0.44,
+    "kind": "unknown-brand",
+    "signals": [
+     "Unusual ending .top",
+     "Asks you to claim"
+    ]
+   },
+   {
+    "url": "https://bit.ly/3xYzAb",
+    "truth": "phishing",
+    "risk": 0.45,
+    "kind": "shortener",
+    "signals": [
+     "Shortened link hides the destination"
+    ]
+   },
+   {
+    "url": "https://login-verify-account.xyz/secure",
+    "truth": "phishing",
+    "risk": 0.44,
+    "kind": "generic-bait",
+    "signals": [
+     "Unusual ending .xyz",
+     "Asks you to secure"
+    ]
+   },
+   {
+    "url": "https://pay-secure-wallet.top/upi",
+    "truth": "phishing",
+    "risk": 0.44,
+    "kind": "generic-bait",
+    "signals": [
+     "Unusual ending .top",
+     "Asks you to upi"
+    ]
+   },
+   {
+    "url": "https://secure-bank-update.click/login",
+    "truth": "phishing",
+    "risk": 0.44,
+    "kind": "generic-bait",
+    "signals": [
+     "Unusual ending .click",
+     "Asks you to login"
+    ]
+   }
+  ]
+ },
+ "performance": {
+  "messages": 480,
+  "p50_ms": 0.49,
+  "p95_ms": 3.53,
+  "p99_ms": 5.0,
+  "mean_ms": 0.82,
+  "throughput_per_s": 1217,
+  "note": "one Python thread on the machine that ran training"
+ },
+ "latency_ms": {
+  "mean": 0.7,
+  "p95": 2.99,
+  "n": 252
+ },
+ "notes": [
+  "The seed training set is written from templates, so it is cleaner than real SMS traffic. Scores on seed_holdout are an upper bound.",
+  "devset was used while tuning rules and thresholds, so its scores are optimistic. blindset was written after tuning stopped.",
+  "All sets are small. Treat the numbers as a development check, not a claim about real-world accuracy.",
+  "Message text from users is never stored by the server."
+ ]
+}
