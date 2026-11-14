@@ -50,7 +50,7 @@
     <rect width="172" height="195" rx="10" fill="#FFFFFF" stroke="#1B1F4B" stroke-width="2.5" />
     <rect width="172" height="26" rx="8" fill="#FBD9D6" stroke="#1B1F4B" stroke-width="2.5" />
     <text x="86" y="18" fill="#E2362F" font-family="-apple-system, sans-serif" font-weight="900" font-size="12" text-anchor="middle">🐙 OTP OCTOPUS</text>
-    <text x="86" y="58" font-size="32" text-anchor="middle">🤖</text>
+    <text x="86" y="58" font-size="32" text-anchor="middle">🐙</text>
     <text x="86" y="82" fill="#E2362F" font-family="-apple-system, sans-serif" font-weight="800" font-size="10.5" text-anchor="middle">THREAT: FRAUD IMPERSONATION</text>
     <rect x="12" y="94" width="148" height="42" rx="6" fill="#FADAEA" />
     <text x="86" y="110" fill="#1B1F4B" font-family="-apple-system, sans-serif" font-weight="700" font-size="9" text-anchor="middle">"Bank fraud squad: Share</text>
