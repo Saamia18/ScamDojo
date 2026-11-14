@@ -1,0 +1,21 @@
+services:
+  - type: web
+    name: scamdojo
+    runtime: python
+    plan: free
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "gunicorn server:app -c gunicorn.conf.py"
+    healthCheckPath: /api/health
+    envVars:
+      - key: SCAMDOJO_TRUST_PROXY
+        value: "1"
+      - key: SCAMDOJO_SECURE
+        value: "1"
+      - key: PYTHON_VERSION
+        value: "3.12.3"
+      # Optional extras (all fail soft when unset):
+      #   ANTHROPIC_API_KEY, SCAMDOJO_LLM_MODEL   -> fresh adversarial game cards from an LLM
+      #   GSB_API_KEY                            -> Google Safe Browsing lookups
+      #   SCAMDOJO_RDAP=1                        -> newly-registered-domain check
+      # Free plans have a temporary disk: accounts are wiped on redeploy. For durable accounts attach a persistent
+      # disk (paid) and set SCAMDOJO_DB to a path on it, for example /var/data/scamdojo.db.
