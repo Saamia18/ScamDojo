@@ -30,7 +30,7 @@ function chrome(active) {
   tools.append(h('a', { class: 'pill', href: '#/account', 'aria-label': acct.user ? acct.user.username : at('nav'), 'aria-current': active === 'account' ? 'page' : null }, '👤 ' + who));
   tools.append(h('button', { class: 'pill', type: 'button', title: t('autoread'), 'aria-label': t('autoread'), 'aria-pressed': String(store.autoread), onclick: (e) => { const on = toggleAutoRead(); e.currentTarget.setAttribute('aria-pressed', String(on)); } }, '🗣️'));
   tools.append(h('button', { class: 'pill', type: 'button', 'aria-label': 'Sound', 'aria-pressed': String(store.sound), onclick: (e) => { const on = toggleSound(); e.currentTarget.textContent = on ? '🔊' : '🔇'; e.currentTarget.setAttribute('aria-pressed', String(on)); } }, store.sound ? '🔊' : '🔇'));
-  clear(document.getElementById('footer')).append(h('p', {}, t('disclaimer')), h('p', {}, 'ScamDojo · INNOVEX 2026 · PS 05'));
+  clear(document.getElementById('footer')).append(h('p', {}, t('disclaimer')));
 }
 
 async function go() {
