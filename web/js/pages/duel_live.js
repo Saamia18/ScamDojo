@@ -25,7 +25,7 @@ export function render(root, params = []) {
     const name = h('input', { class: 'field', type: 'text', maxlength: '20', value: savedName(), placeholder: 'Your name', 'aria-label': 'Your name' });
     const code = h('input', { class: 'field', type: 'text', maxlength: '4', value: wanted, placeholder: 'ABCD', style: { textTransform: 'uppercase', letterSpacing: '.2em', textAlign: 'center' }, 'aria-label': 'Room code' });
     const go = (c) => { try { localStorage.setItem(NAME_KEY, name.value); } catch (e) { /* ignore */ } connect(c, name.value || 'Player'); };
-    page.append(h('h1', {}, '👥 Live duel'), h('p', { class: 'lead muted' }, 'Race a friend to the red flags in the same message. Whoever taps a flag first claims it. If nobody joins in 15 seconds, an AI opponent steps in.'),
+    page.append(h('h1', {}, '👥 Live duel'), h('p', { class: 'lead muted' }, 'Race a friend to the red flags in the same message. Whoever taps a flag first claims it. If nobody joins after 2 minutes, an AI opponent steps in.'),
       error ? h('div', { class: 'note warn' }, '⚠️ ' + error) : null,
       h('div', { class: 'card stack' }, h('label', { class: 'lab' }, h('span', {}, 'Your name'), name),
         h('button', { class: 'btn big', type: 'button', onclick: () => go('NEW') }, '➕ Create a room'),
@@ -81,7 +81,7 @@ export function render(root, params = []) {
   function waitingRoom(seconds) {
     clear(page);
     const link = location.origin + location.pathname + '#/duel/live/' + S.code;
-    let left = Math.round(seconds || 15);
+    let left = Math.round(seconds || 120);
     const eta = h('b', {}, left + 's');
     clearInterval(timerId); timerId = setInterval(() => { left = Math.max(0, left - 1); eta.textContent = left + 's'; }, 1000);
     page.append(h('h1', {}, '👥 Waiting for a friend'),

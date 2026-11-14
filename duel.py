@@ -7,7 +7,7 @@ and close(), which is what flask-sock and the built-in test transport (ws_transp
 Protocol (JSON text frames)
   client -> server   {"t":"claim","start":int,"end":int}   {"t":"done"}   {"t":"clean"}   {"t":"ping"}
   server -> client   joined, waiting, player_joined, countdown, round, claimed, wrong, late, round_end, match_end, opponent_left, error, ping
-If nobody joins within BOT_WAIT seconds (default 15) an AI opponent joins automatically; it also takes over if a human leaves mid-match.
+If nobody joins within BOT_WAIT seconds (default 120) an AI opponent joins automatically; it also takes over if a human leaves mid-match.
 """
 import json
 import random
@@ -21,7 +21,7 @@ MAX_ROOMS = 100
 MAX_MSG = 2000
 MSGS_PER_SECOND = 40
 
-CFG = {"rounds": 6, "seconds": 20.0, "bot_wait": 15.0, "between": 5.0, "countdown": 3.0, "bot_start": 3.0, "bot_gap": 2.6}
+CFG = {"rounds": 6, "seconds": 20.0, "bot_wait": 120.0, "between": 5.0, "countdown": 3.0, "bot_start": 3.0, "bot_gap": 2.6}
 _CARDS = []
 
 
