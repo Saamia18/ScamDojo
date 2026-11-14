@@ -1,0 +1,1527 @@
+{
+ "bosses": [
+  {
+   "id": "kraken",
+   "name": "KYC Kraken",
+   "emoji": "🦑",
+   "color": "#6A4CFF",
+   "category": "kyc",
+   "hp": 70,
+   "tagline": "Grabs accounts with fake KYC deadlines.",
+   "intro": "Your account will be BLOCKED! Update KYC right now!",
+   "defeat": "The Kraken drops your account details and sinks back into the sea.",
+   "lesson": "Banks never ask you to complete KYC through a link or a call from a random number.",
+   "i18n": {
+    "hi": {
+     "tagline": "नकली KYC की समय-सीमा से खाते हड़पता है।",
+     "intro": "आपका खाता ब्लॉक हो जाएगा! अभी KYC अपडेट करें!",
+     "defeat": "क्रैकेन आपके खाते की जानकारी छोड़कर समुद्र में डूब गया।",
+     "lesson": "बैंक कभी लिंक या अनजान नंबर के कॉल से KYC पूरा करने को नहीं कहते।"
+    },
+    "kn": {
+     "tagline": "ನಕಲಿ KYC ಗಡುವುಗಳಿಂದ ಖಾತೆಗಳನ್ನು ಕಸಿದುಕೊಳ್ಳುತ್ತದೆ.",
+     "intro": "ನಿಮ್ಮ ಖಾತೆ ನಿರ್ಬಂಧಿತವಾಗುತ್ತದೆ! ಈಗಲೇ KYC ನವೀಕರಿಸಿ!",
+     "defeat": "ಕ್ರೇಕನ್ ನಿಮ್ಮ ಖಾತೆಯ ವಿವರ ಬಿಟ್ಟು ಸಮುದ್ರದಲ್ಲಿ ಮುಳುಗಿತು.",
+     "lesson": "ಬ್ಯಾಂಕ್‌ಗಳು ಲಿಂಕ್ ಮೂಲಕ ಅಥವಾ ಅಪರಿಚಿತ ಸಂಖ್ಯೆಯ ಕರೆಯ ಮೂಲಕ KYC ಪೂರ್ಣಗೊಳಿಸಲು ಹೇಳುವುದಿಲ್ಲ."
+    }
+   }
+  },
+  {
+   "id": "llama",
+   "name": "Lottery Llama",
+   "emoji": "🦙",
+   "color": "#D6247F",
+   "category": "prize",
+   "hp": 70,
+   "tagline": "Says you won prizes you never entered.",
+   "intro": "You are the lucky winner! Just pay a tiny fee...",
+   "defeat": "The Llama spits out your prize money and trots off.",
+   "lesson": "You cannot win a draw you never entered, and real prizes never ask for a fee.",
+   "i18n": {
+    "hi": {
+     "tagline": "जो इनाम आपने कभी जीता ही नहीं, उसका दावा करता है।",
+     "intro": "आप भाग्यशाली विजेता हैं! बस थोड़ी सी फ़ीस दीजिए…",
+     "defeat": "लामा ने आपका इनाम उगल दिया और भाग गया।",
+     "lesson": "जिस ड्रॉ में आप शामिल ही नहीं हुए, उसे आप जीत नहीं सकते, और असली इनाम के लिए फ़ीस नहीं लगती।"
+    },
+    "kn": {
+     "tagline": "ನೀವು ಎಂದೂ ಭಾಗವಹಿಸದ ಬಹುಮಾನಗಳನ್ನು ಗೆದ್ದಿದ್ದೀರಿ ಎನ್ನುತ್ತದೆ.",
+     "intro": "ನೀವು ಅದೃಷ್ಟಶಾಲಿ ವಿಜೇತರು! ಕೇವಲ ಸಣ್ಣ ಶುಲ್ಕ ಕೊಡಿ…",
+     "defeat": "ಲಾಮಾ ನಿಮ್ಮ ಬಹುಮಾನದ ಹಣ ಉಗುಳಿ ಓಡಿ ಹೋಯಿತು.",
+     "lesson": "ನೀವು ಭಾಗವಹಿಸದ ಡ್ರಾ ನೀವು ಗೆಲ್ಲಲು ಸಾಧ್ಯವಿಲ್ಲ, ಮತ್ತು ನಿಜವಾದ ಬಹುಮಾನಕ್ಕೆ ಶುಲ್ಕ ಇರುವುದಿಲ್ಲ."
+    }
+   }
+  },
+  {
+   "id": "octopus",
+   "name": "OTP Octopus",
+   "emoji": "🐙",
+   "color": "#E2362F",
+   "category": "otp",
+   "hp": 70,
+   "tagline": "Eight arms, all reaching for your OTP and PIN.",
+   "intro": "Just read me the code on your phone, it is only for verification.",
+   "defeat": "The Octopus retreats into the ink with empty arms.",
+   "lesson": "Never share an OTP or UPI PIN. Receiving money never needs your PIN.",
+   "i18n": {
+    "hi": {
+     "tagline": "आठ हाथ, सब आपके OTP और PIN के पीछे।",
+     "intro": "बस फ़ोन पर आया कोड बता दीजिए, यह सिर्फ़ जाँच के लिए है।",
+     "defeat": "ऑक्टोपस खाली हाथ स्याही में गायब हो गया।",
+     "lesson": "OTP या UPI PIN कभी किसी को न बताएँ। पैसा पाने के लिए PIN नहीं चाहिए।"
+    },
+    "kn": {
+     "tagline": "ಎಂಟು ಕೈಗಳು, ಎಲ್ಲವೂ ನಿಮ್ಮ OTP ಮತ್ತು PIN ಕಡೆಗೆ.",
+     "intro": "ಫೋನ್‌ಗೆ ಬಂದ ಕೋಡ್ ಹೇಳಿ, ಇದು ಕೇವಲ ಪರಿಶೀಲನೆಗಾಗಿ.",
+     "defeat": "ಆಕ್ಟೋಪಸ್ ಖಾಲಿ ಕೈಗಳಿಂದ ಶಾಯಿಯಲ್ಲಿ ಮರೆಯಾಯಿತು.",
+     "lesson": "OTP ಅಥವಾ UPI PIN ಅನ್ನು ಯಾರಿಗೂ ಹೇಳಬೇಡಿ. ಹಣ ಪಡೆಯಲು PIN ಬೇಕಿಲ್ಲ."
+    }
+   }
+  },
+  {
+   "id": "jackal",
+   "name": "Job Offer Jackal",
+   "emoji": "🐺",
+   "color": "#1E9E5A",
+   "category": "job",
+   "hp": 70,
+   "tagline": "Promises easy money for liking videos.",
+   "intro": "Earn Rs 5,000 a day from your couch. Registration fee only Rs 999!",
+   "defeat": "The Jackal drops the fake offer letters and flees.",
+   "lesson": "Real employers never charge you to hire you and never pay for likes or ratings.",
+   "i18n": {
+    "hi": {
+     "tagline": "वीडियो लाइक करने पर आसान कमाई का वादा।",
+     "intro": "सोफ़े पर बैठे Rs 5,000 रोज़ कमाइए। सिर्फ़ Rs 999 पंजीकरण शुल्क!",
+     "defeat": "सियार नकली ऑफ़र लेटर गिराकर भाग गया।",
+     "lesson": "असली नियोक्ता नौकरी के लिए पैसे नहीं लेते, और लाइक या रेटिंग के लिए भुगतान नहीं करते।"
+    },
+    "kn": {
+     "tagline": "ವೀಡಿಯೊ ಲೈಕ್ ಮಾಡಿದರೆ ಸುಲಭ ಗಳಿಕೆ ಎಂದು ಭರವಸೆ ಕೊಡುತ್ತದೆ.",
+     "intro": "ಸೋಫಾದಲ್ಲಿ ಕುಳಿತು ದಿನಕ್ಕೆ Rs 5,000 ಗಳಿಸಿ. ಕೇವಲ Rs 999 ನೋಂದಣಿ ಶುಲ್ಕ!",
+     "defeat": "ನರಿ ನಕಲಿ ಆಫರ್ ಲೆಟರ್ ಗಳನ್ನು ಬಿಟ್ಟು ಓಡಿತು.",
+     "lesson": "ನಿಜವಾದ ಉದ್ಯೋಗದಾತರು ಕೆಲಸಕ್ಕೆ ಹಣ ಕೇಳುವುದಿಲ್ಲ, ಲೈಕ್ ಅಥವಾ ರೇಟಿಂಗ್ ಗೆ ಹಣ ಕೊಡುವುದಿಲ್ಲ."
+    }
+   }
+  },
+  {
+   "id": "cobra",
+   "name": "Courier Cobra",
+   "emoji": "🐍",
+   "color": "#FFB400",
+   "category": "courier",
+   "hp": 70,
+   "tagline": "Hisses about stuck parcels and power cuts.",
+   "intro": "Your parcel is stuck at customs. Pay now or it is returned!",
+   "defeat": "The Cobra slithers away, parcel-less.",
+   "lesson": "Track parcels only in the shop's app. Utilities don't cut power by SMS at night.",
+   "i18n": {
+    "hi": {
+     "tagline": "अटके पार्सल और बिजली कटने की फुफकार।",
+     "intro": "आपका पार्सल कस्टम्स में अटका है। अभी भुगतान करें वरना वापस चला जाएगा!",
+     "defeat": "कोबरा बिना पार्सल के रेंगकर भाग गया।",
+     "lesson": "पार्सल सिर्फ़ दुकान के ऐप में ट्रैक करें। बिजली विभाग रात में SMS से बिजली नहीं काटता।"
+    },
+    "kn": {
+     "tagline": "ಸಿಲುಕಿದ ಪಾರ್ಸೆಲ್ ಮತ್ತು ವಿದ್ಯುತ್ ಕಡಿತದ ಬುಸುಗುಡುವಿಕೆ.",
+     "intro": "ನಿಮ್ಮ ಪಾರ್ಸೆಲ್ ಕಸ್ಟಮ್ಸ್ ನಲ್ಲಿ ಸಿಲುಕಿದೆ. ಈಗಲೇ ಪಾವತಿಸಿ, ಇಲ್ಲದಿದ್ದರೆ ವಾಪಸ್ ಹೋಗುತ್ತದೆ!",
+     "defeat": "ನಾಗರಹಾವು ಪಾರ್ಸೆಲ್ ಇಲ್ಲದೆ ಹರಿದು ಹೋಯಿತು.",
+     "lesson": "ಪಾರ್ಸೆಲ್ ಅನ್ನು ಅಂಗಡಿಯ ಆ್ಯಪ್ ನಲ್ಲಿ ಮಾತ್ರ ಟ್ರ್ಯಾಕ್ ಮಾಡಿ. ವಿದ್ಯುತ್ ಇಲಾಖೆ ರಾತ್ರಿ SMS ಮೂಲಕ ವಿದ್ಯುತ್ ಕಡಿತ ಮಾಡುವುದಿಲ್ಲ."
+    }
+   }
+  }
+ ],
+ "cards": [
+  {
+   "id": "kraken-01",
+   "boss": "kraken",
+   "sender": "VK-SBIINB",
+   "channel": "sms",
+   "text": "Dear SBI user, your YONO account is restricted. Complete KYC today: http://yono-sbi-care.top/kyc or lose access.",
+   "scam": true,
+   "loss": 3000,
+   "lesson": "SBI's real site is sbi.co.in. This link is a look-alike, and banks don't restrict accounts by SMS link.",
+   "i18n": {
+    "hi": {
+     "text": "प्रिय SBI उपभोक्ता, आपका YONO खाता प्रतिबंधित है। आज ही KYC पूरा करें: http://yono-sbi-care.top/kyc वरना खाता बंद हो जाएगा।",
+     "lesson": "SBI की असली साइट sbi.co.in है। यह लिंक नकली है, और बैंक SMS लिंक से खाता प्रतिबंधित नहीं करते।",
+     "flags": [
+      "आज ही KYC पूरा करें",
+      "खाता बंद हो जाएगा"
+     ]
+    },
+    "kn": {
+     "text": "ಪ್ರಿಯ SBI ಗ್ರಾಹಕರೇ, ನಿಮ್ಮ YONO ಖಾತೆ ನಿರ್ಬಂಧಿತವಾಗಿದೆ. ಇಂದೇ KYC ಪೂರ್ಣಗೊಳಿಸಿ: http://yono-sbi-care.top/kyc ಇಲ್ಲದಿದ್ದರೆ ಖಾತೆ ಮುಚ್ಚಲಾಗುತ್ತದೆ.",
+     "lesson": "SBI ಯ ನಿಜವಾದ ವೆಬ್‌ಸೈಟ್ sbi.co.in. ಈ ಲಿಂಕ್ ನಕಲಿ, ಮತ್ತು ಬ್ಯಾಂಕ್‌ಗಳು SMS ಲಿಂಕ್ ಮೂಲಕ ಖಾತೆಯನ್ನು ನಿರ್ಬಂಧಿಸುವುದಿಲ್ಲ.",
+     "flags": [
+      "ಇಂದೇ KYC ಪೂರ್ಣಗೊಳಿಸಿ",
+      "ಖಾತೆ ಮುಚ್ಚಲಾಗುತ್ತದೆ"
+     ]
+    }
+   }
+  },
+  {
+   "id": "kraken-02",
+   "boss": "kraken",
+   "sender": "AD-HDFCBK",
+   "channel": "sms",
+   "text": "HDFC Bank: PAN not updated. Netbanking will be blocked in 3 hours. Update: hdfc-pan-link.xyz",
+   "scam": true,
+   "loss": 2500,
+   "lesson": "A 3-hour deadline plus a strange .xyz link is a classic panic trick.",
+   "i18n": {
+    "hi": {
+     "text": "HDFC Bank: PAN अपडेट नहीं है। 3 घंटे में नेटबैंकिंग ब्लॉक हो जाएगी। अपडेट करें: hdfc-pan-link.xyz",
+     "lesson": "3 घंटे की समय-सीमा और अजीब .xyz लिंक, यह घबराहट पैदा करने की पुरानी चाल है।",
+     "flags": [
+      "3 घंटे में नेटबैंकिंग ब्लॉक हो जाएगी",
+      "PAN अपडेट नहीं है"
+     ]
+    },
+    "kn": {
+     "text": "HDFC Bank: PAN ನವೀಕರಿಸಿಲ್ಲ. 3 ಗಂಟೆಗಳಲ್ಲಿ ನೆಟ್ ಬ್ಯಾಂಕಿಂಗ್ ನಿರ್ಬಂಧಿಸಲಾಗುತ್ತದೆ. ನವೀಕರಿಸಿ: hdfc-pan-link.xyz",
+     "lesson": "3 ಗಂಟೆಗಳ ಗಡುವು ಮತ್ತು ವಿಚಿತ್ರ .xyz ಲಿಂಕ್ ಭಯ ಹುಟ್ಟಿಸುವ ಹಳೆಯ ತಂತ್ರ.",
+     "flags": [
+      "3 ಗಂಟೆಗಳಲ್ಲಿ ನೆಟ್ ಬ್ಯಾಂಕಿಂಗ್ ನಿರ್ಬಂಧಿಸಲಾಗುತ್ತದೆ",
+      "PAN ನವೀಕರಿಸಿಲ್ಲ"
+     ]
+    }
+   }
+  },
+  {
+   "id": "kraken-03",
+   "boss": "kraken",
+   "sender": "+91 99012 33410",
+   "channel": "chat",
+   "text": "Sir this is ICICI KYC department. Your KYC will expire tonight, call me on this number to renew now.",
+   "scam": true,
+   "loss": 2000,
+   "lesson": "Banks don't renew KYC through a call from a random number.",
+   "i18n": {
+    "hi": {
+     "text": "सर, मैं ICICI KYC विभाग से बोल रहा हूँ। आपका KYC आज रात खत्म हो जाएगा, अभी renew करने के लिए इस नंबर पर कॉल करें।",
+     "lesson": "बैंक किसी अनजान नंबर से कॉल करके KYC रिन्यू नहीं करते।",
+     "flags": [
+      "आपका KYC आज रात खत्म हो जाएगा",
+      "इस नंबर पर कॉल करें"
+     ]
+    },
+    "kn": {
+     "text": "ಸರ್, ನಾನು ICICI KYC ವಿಭಾಗದಿಂದ ಮಾತನಾಡುತ್ತಿದ್ದೇನೆ. ನಿಮ್ಮ KYC ಇಂದು ರಾತ್ರಿ ಮುಗಿಯುತ್ತದೆ, ಈಗಲೇ ನವೀಕರಿಸಲು ಈ ಸಂಖ್ಯೆಗೆ ಕರೆ ಮಾಡಿ.",
+     "lesson": "ಬ್ಯಾಂಕ್‌ಗಳು ಅಪರಿಚಿತ ಸಂಖ್ಯೆಯಿಂದ ಕರೆ ಮಾಡಿ KYC ನವೀಕರಿಸುವುದಿಲ್ಲ.",
+     "flags": [
+      "ನಿಮ್ಮ KYC ಇಂದು ರಾತ್ರಿ ಮುಗಿಯುತ್ತದೆ",
+      "ಈ ಸಂಖ್ಯೆಗೆ ಕರೆ ಮಾಡಿ"
+     ]
+    }
+   }
+  },
+  {
+   "id": "kraken-04",
+   "boss": "kraken",
+   "sender": "BZ-AXISBK",
+   "channel": "sms",
+   "text": "Axis Bank: Your account will be frozen in 24 hrs due to Aadhaar mismatch. Verify at axis-aadhaar-verify.cfd/login",
+   "scam": true,
+   "loss": 3500,
+   "lesson": "Look at the ending: .cfd is not a bank. Real Axis Bank is axisbank.com.",
+   "i18n": {
+    "hi": {
+     "text": "Axis Bank: आधार मिलान न होने से आपका खाता 24 घंटे में फ्रीज़ हो जाएगा। यहाँ सत्यापित करें: axis-aadhaar-verify.cfd/login",
+     "lesson": "अंत देखिए: .cfd किसी बैंक का नहीं होता। असली Axis Bank axisbank.com है।",
+     "flags": [
+      "24 घंटे में फ्रीज़ हो जाएगा"
+     ]
+    },
+    "kn": {
+     "text": "Axis Bank: ಆಧಾರ್ ಹೊಂದಾಣಿಕೆಯಾಗದ ಕಾರಣ ನಿಮ್ಮ ಖಾತೆ 24 ಗಂಟೆಗಳಲ್ಲಿ ಫ್ರೀಜ್ ಆಗುತ್ತದೆ. ಇಲ್ಲಿ ಪರಿಶೀಲಿಸಿ: axis-aadhaar-verify.cfd/login",
+     "lesson": "ಕೊನೆಯ ಭಾಗ ನೋಡಿ: .cfd ಯಾವುದೇ ಬ್ಯಾಂಕ್‌ನದ್ದಲ್ಲ. ನಿಜವಾದ Axis Bank axisbank.com.",
+     "flags": [
+      "24 ಗಂಟೆಗಳಲ್ಲಿ ಫ್ರೀಜ್ ಆಗುತ್ತದೆ"
+     ]
+    }
+   }
+  },
+  {
+   "id": "kraken-05",
+   "boss": "kraken",
+   "sender": "VM-PNBSMS",
+   "channel": "sms",
+   "text": "PNB customer, KYC pending. Pay Rs 10 verification fee at pnb-secure-kyc.click to keep your account active.",
+   "scam": true,
+   "loss": 1500,
+   "lesson": "A 'small fee' is how they capture your card details.",
+   "i18n": {
+    "hi": {
+     "text": "PNB ग्राहक, KYC बाकी है। खाता चालू रखने के लिए pnb-secure-kyc.click पर Rs 10 सत्यापन शुल्क दें।",
+     "lesson": "'छोटा शुल्क' इसलिए लिया जाता है ताकि आपके कार्ड की जानकारी मिल जाए।",
+     "flags": [
+      "Rs 10 सत्यापन शुल्क दें",
+      "KYC बाकी है"
+     ]
+    },
+    "kn": {
+     "text": "PNB ಗ್ರಾಹಕರೇ, KYC ಬಾಕಿ ಇದೆ. ಖಾತೆ ಸಕ್ರಿಯವಾಗಿಡಲು pnb-secure-kyc.click ನಲ್ಲಿ Rs 10 ಪರಿಶೀಲನಾ ಶುಲ್ಕ ಪಾವತಿಸಿ.",
+     "lesson": "'ಸಣ್ಣ ಶುಲ್ಕ' ಕೇಳುವುದು ನಿಮ್ಮ ಕಾರ್ಡ್ ವಿವರ ಪಡೆಯಲು.",
+     "flags": [
+      "Rs 10 ಪರಿಶೀಲನಾ ಶುಲ್ಕ ಪಾವತಿಸಿ",
+      "KYC ಬಾಕಿ ಇದೆ"
+     ]
+    }
+   }
+  },
+  {
+   "id": "kraken-06",
+   "boss": "kraken",
+   "sender": "+91 88002 45671",
+   "channel": "chat",
+   "text": "Hello, your SIM KYC is expiring. Send your Aadhaar photo and OTP to this number to continue service.",
+   "scam": true,
+   "loss": 3000,
+   "lesson": "Never send Aadhaar photos or OTPs to a number that texts you.",
+   "i18n": {
+    "hi": {
+     "text": "नमस्ते, आपका SIM KYC खत्म होने वाला है। सेवा जारी रखने के लिए अपनी आधार फोटो और OTP इस नंबर पर भेजें।",
+     "lesson": "आपको मैसेज करने वाले नंबर पर आधार फोटो या OTP कभी न भेजें।",
+     "flags": [
+      "आधार फोटो और OTP इस नंबर पर भेजें",
+      "SIM KYC खत्म होने वाला है"
+     ]
+    },
+    "kn": {
+     "text": "ನಮಸ್ಕಾರ, ನಿಮ್ಮ SIM KYC ಮುಗಿಯುತ್ತಿದೆ. ಸೇವೆ ಮುಂದುವರಿಸಲು ನಿಮ್ಮ ಆಧಾರ್ ಫೋಟೋ ಮತ್ತು OTP ಈ ಸಂಖ್ಯೆಗೆ ಕಳುಹಿಸಿ.",
+     "lesson": "ನಿಮಗೆ ಸಂದೇಶ ಕಳುಹಿಸಿದ ಸಂಖ್ಯೆಗೆ ಆಧಾರ್ ಫೋಟೋ ಅಥವಾ OTP ಎಂದಿಗೂ ಕಳುಹಿಸಬೇಡಿ.",
+     "flags": [
+      "ಆಧಾರ್ ಫೋಟೋ ಮತ್ತು OTP ಈ ಸಂಖ್ಯೆಗೆ ಕಳುಹಿಸಿ"
+     ]
+    }
+   }
+  },
+  {
+   "id": "kraken-07",
+   "boss": "kraken",
+   "sender": "TX-KOTAKB",
+   "channel": "sms",
+   "text": "Kotak: To avoid account suspension, update your PAN here: bit.ly/3kt0kyc",
+   "scam": true,
+   "loss": 2000,
+   "lesson": "A shortened link hides where you'll land.",
+   "i18n": {
+    "hi": {
+     "text": "Kotak: खाता निलंबन से बचने के लिए अपना PAN यहाँ अपडेट करें: bit.ly/3kt0kyc",
+     "lesson": "छोटा किया गया लिंक छिपा देता है कि आप कहाँ पहुँचेंगे।",
+     "flags": [
+      "खाता निलंबन से बचने के लिए"
+     ]
+    },
+    "kn": {
+     "text": "Kotak: ಖಾತೆ ಸ್ಥಗಿತವಾಗದಂತೆ ತಡೆಯಲು ನಿಮ್ಮ PAN ಇಲ್ಲಿ ನವೀಕರಿಸಿ: bit.ly/3kt0kyc",
+     "lesson": "ಚಿಕ್ಕದಾಗಿಸಿದ ಲಿಂಕ್ ನೀವು ಎಲ್ಲಿಗೆ ಹೋಗುತ್ತೀರಿ ಎಂಬುದನ್ನು ಮರೆಮಾಡುತ್ತದೆ.",
+     "flags": [
+      "ಖಾತೆ ಸ್ಥಗಿತವಾಗದಂತೆ ತಡೆಯಲು"
+     ]
+    }
+   }
+  },
+  {
+   "id": "kraken-08",
+   "boss": "kraken",
+   "sender": "VK-SBIINB",
+   "channel": "sms",
+   "text": "Your SBI account KYC is up to date. No action is required. Thank you for banking with us.",
+   "scam": false,
+   "loss": 0,
+   "lesson": "Genuine: it asks you to do nothing, has no link and makes no threat.",
+   "i18n": {
+    "hi": {
+     "text": "आपके SBI खाते का KYC अद्यतन है। किसी कार्रवाई की आवश्यकता नहीं। हमारे साथ बैंकिंग के लिए धन्यवाद।",
+     "lesson": "असली: इसमें कुछ करने को नहीं कहा गया, न लिंक है, न धमकी।",
+     "flags": []
+    },
+    "kn": {
+     "text": "ನಿಮ್ಮ SBI ಖಾತೆಯ KYC ನವೀಕೃತವಾಗಿದೆ. ಯಾವುದೇ ಕ್ರಮ ಅಗತ್ಯವಿಲ್ಲ. ನಮ್ಮೊಂದಿಗೆ ಬ್ಯಾಂಕಿಂಗ್ ಮಾಡಿದ್ದಕ್ಕೆ ಧನ್ಯವಾದಗಳು.",
+     "lesson": "ನಿಜ: ಇದು ಏನನ್ನೂ ಮಾಡಲು ಹೇಳುವುದಿಲ್ಲ, ಲಿಂಕ್ ಅಥವಾ ಬೆದರಿಕೆ ಇಲ್ಲ.",
+     "flags": []
+    }
+   }
+  },
+  {
+   "id": "kraken-09",
+   "boss": "kraken",
+   "sender": "AD-HDFCBK",
+   "channel": "sms",
+   "text": "HDFC Bank: Your periodic KYC update is due by 31 Dec. Please visit your branch with ID proof. No link is being sent.",
+   "scam": false,
+   "loss": 0,
+   "lesson": "Genuine: it sends you to a branch and explicitly sends no link.",
+   "i18n": {
+    "hi": {
+     "text": "HDFC Bank: आपका नियमित KYC अपडेट 31 दिसंबर तक देय है। कृपया पहचान पत्र के साथ शाखा आएँ। कोई लिंक नहीं भेजा जा रहा है।",
+     "lesson": "असली: यह शाखा में बुलाता है और साफ़ कहता है कि कोई लिंक नहीं भेजा गया।",
+     "flags": []
+    },
+    "kn": {
+     "text": "HDFC Bank: ನಿಮ್ಮ ನಿಯಮಿತ KYC ನವೀಕರಣ ಡಿಸೆಂಬರ್ 31 ರೊಳಗೆ ಬಾಕಿ ಇದೆ. ದಯವಿಟ್ಟು ಗುರುತಿನ ಚೀಟಿಯೊಂದಿಗೆ ಶಾಖೆಗೆ ಬನ್ನಿ. ಯಾವುದೇ ಲಿಂಕ್ ಕಳುಹಿಸಲಾಗುತ್ತಿಲ್ಲ.",
+     "lesson": "ನಿಜ: ಇದು ಶಾಖೆಗೆ ಕರೆಯುತ್ತದೆ ಮತ್ತು ಲಿಂಕ್ ಕಳುಹಿಸಿಲ್ಲ ಎಂದು ಸ್ಪಷ್ಟವಾಗಿ ಹೇಳುತ್ತದೆ.",
+     "flags": []
+    }
+   }
+  },
+  {
+   "id": "kraken-10",
+   "boss": "kraken",
+   "sender": "BK-ICICIB",
+   "channel": "sms",
+   "text": "ICICI Bank: Rs 3,200 debited from A/c XX5521 at Reliance Digital on 10-Nov. Not you? Call 1800 1080 immediately.",
+   "scam": false,
+   "loss": 0,
+   "lesson": "Genuine: a normal debit alert with the number printed on your card.",
+   "i18n": {
+    "hi": {
+     "text": "ICICI Bank: 10-Nov को Reliance Digital पर A/c XX5521 से Rs 3,200 डेबिट हुए। आप नहीं? तुरंत 1800 1080 पर कॉल करें।",
+     "lesson": "असली: सामान्य डेबिट अलर्ट, और नंबर वही जो आपके कार्ड पर छपा है।",
+     "flags": []
+    },
+    "kn": {
+     "text": "ICICI Bank: Reliance Digital ನಲ್ಲಿ 10-Nov ರಂದು A/c XX5521 ನಿಂದ Rs 3,200 ಡೆಬಿಟ್ ಆಗಿದೆ. ನೀವಲ್ಲವೇ? ತಕ್ಷಣ 1800 1080 ಗೆ ಕರೆ ಮಾಡಿ.",
+     "lesson": "ನಿಜ: ಸಾಮಾನ್ಯ ಡೆಬಿಟ್ ಎಚ್ಚರಿಕೆ, ನಿಮ್ಮ ಕಾರ್ಡ್‌ನಲ್ಲಿ ಮುದ್ರಿತವಾದ ಸಂಖ್ಯೆಯೊಂದಿಗೆ.",
+     "flags": []
+    }
+   }
+  },
+  {
+   "id": "kraken-11",
+   "boss": "kraken",
+   "sender": "Mom",
+   "channel": "chat",
+   "text": "Beta, bank wale ne call kiya tha KYC ke liye. Maine bola main branch aake karunga. Theek hai na?",
+   "scam": false,
+   "loss": 0,
+   "lesson": "Genuine chat, and a good instinct: verifying in person is the right move.",
+   "i18n": {
+    "hi": {
+     "text": "बेटा, बैंक वाले ने KYC के लिए फोन किया था। मैंने कहा मैं शाखा जाकर करवाऊँगा। ठीक है ना?",
+     "lesson": "असली बातचीत, और अच्छी समझ: खुद जाकर जाँच करना सही तरीका है।",
+     "flags": []
+    },
+    "kn": {
+     "text": "ಮಗು, ಬ್ಯಾಂಕ್‌ನವರು KYC ಗಾಗಿ ಕರೆ ಮಾಡಿದ್ದರು. ನಾನು ಶಾಖೆಗೆ ಹೋಗಿ ಮಾಡಿಸುತ್ತೇನೆ ಅಂದೆ. ಸರಿ ತಾನೇ?",
+     "lesson": "ನಿಜವಾದ ಮಾತುಕತೆ, ಮತ್ತು ಒಳ್ಳೆಯ ಯೋಚನೆ: ನೀವೇ ಹೋಗಿ ಪರಿಶೀಲಿಸುವುದು ಸರಿಯಾದ ದಾರಿ.",
+     "flags": []
+    }
+   }
+  },
+  {
+   "id": "llama-01",
+   "boss": "llama",
+   "sender": "+91 73310 88224",
+   "channel": "chat",
+   "text": "CONGRATULATIONS! Your number won Rs 15,00,000 in the Jio Diwali Bumper. Send Rs 2,500 tax to claim. Call 7331088224.",
+   "scam": true,
+   "loss": 2500,
+   "lesson": "A prize that needs you to pay tax first is a scam. Real winners are never asked to pay.",
+   "i18n": {
+    "hi": {
+     "text": "बधाई हो! आपके नंबर ने Jio दिवाली बम्पर में Rs 15,00,000 जीते हैं। दावा करने के लिए Rs 2,500 टैक्स भेजें। कॉल करें 7331088224।",
+     "lesson": "जिस इनाम के लिए पहले टैक्स देना पड़े वह स्कैम है। असली विजेता से पैसे नहीं माँगे जाते।",
+     "flags": [
+      "Rs 2,500 टैक्स भेजें",
+      "Rs 15,00,000 जीते हैं"
+     ]
+    },
+    "kn": {
+     "text": "ಅಭಿನಂದನೆಗಳು! ನಿಮ್ಮ ಸಂಖ್ಯೆ Jio ದೀಪಾವಳಿ ಬಂಪರ್‌ನಲ್ಲಿ Rs 15,00,000 ಗೆದ್ದಿದೆ. ಪಡೆಯಲು Rs 2,500 ತೆರಿಗೆ ಕಳುಹಿಸಿ. ಕರೆ ಮಾಡಿ 7331088224.",
+     "lesson": "ಬಹುಮಾನ ಪಡೆಯಲು ಮೊದಲು ತೆರಿಗೆ ಕೇಳಿದರೆ ಅದು ವಂಚನೆ. ನಿಜವಾದ ವಿಜೇತರಿಂದ ಹಣ ಕೇಳುವುದಿಲ್ಲ.",
+     "flags": [
+      "Rs 2,500 ತೆರಿಗೆ ಕಳುಹಿಸಿ",
+      "Rs 15,00,000 ಗೆದ್ದಿದೆ"
+     ]
+    }
+   }
+  },
+  {
+   "id": "llama-02",
+   "boss": "llama",
+   "sender": "VM-AMZNIN",
+   "channel": "sms",
+   "text": "Amazon Mega Draw: you're the winner of an iPhone 16. Claim before midnight: amazon-megadraw.shop/win",
+   "scam": true,
+   "loss": 3000,
+   "lesson": "amazon.in is the real site. .shop with 'megadraw' is a trap.",
+   "i18n": {
+    "hi": {
+     "text": "Amazon मेगा ड्रॉ: आप iPhone 16 के विजेता हैं। आधी रात से पहले दावा करें: amazon-megadraw.shop/win",
+     "lesson": "असली साइट amazon.in है। .shop और 'megadraw' एक जाल है।",
+     "flags": [
+      "iPhone 16 के विजेता हैं",
+      "आधी रात से पहले दावा करें"
+     ]
+    },
+    "kn": {
+     "text": "Amazon ಮೆಗಾ ಡ್ರಾ: ನೀವು iPhone 16 ವಿಜೇತರು. ಮಧ್ಯರಾತ್ರಿಯೊಳಗೆ ಪಡೆಯಿರಿ: amazon-megadraw.shop/win",
+     "lesson": "ನಿಜವಾದ ಸೈಟ್ amazon.in. .shop ಮತ್ತು 'megadraw' ಒಂದು ಬಲೆ.",
+     "flags": [
+      "iPhone 16 ವಿಜೇತರು",
+      "ಮಧ್ಯರಾತ್ರಿಯೊಳಗೆ ಪಡೆಯಿರಿ"
+     ]
+    }
+   }
+  },
+  {
+   "id": "llama-03",
+   "boss": "llama",
+   "sender": "JK-PAYTMB",
+   "channel": "sms",
+   "text": "Paytm Wheel: spin and win up to Rs 10,000 cashback! Tap https://paytm-spin.live/win",
+   "scam": true,
+   "loss": 2000,
+   "lesson": "Paytm only runs offers inside its own app.",
+   "i18n": {
+    "hi": {
+     "text": "Paytm व्हील: घुमाओ और जीतो, Rs 10,000 तक कैशबैक! टैप करें https://paytm-spin.live/win",
+     "lesson": "Paytm ऑफ़र अपने ही ऐप के अंदर चलाता है।",
+     "flags": [
+      "Rs 10,000 तक कैशबैक"
+     ]
+    },
+    "kn": {
+     "text": "Paytm ವೀಲ್: ತಿರುಗಿಸಿ ಗೆಲ್ಲಿರಿ, Rs 10,000 ವರೆಗೆ ಕ್ಯಾಶ್ ಬ್ಯಾಕ್! ಟ್ಯಾಪ್ ಮಾಡಿ https://paytm-spin.live/win",
+     "lesson": "Paytm ತನ್ನ ಆ್ಯಪ್ ಒಳಗೇ ಆಫರ್ ನಡೆಸುತ್ತದೆ.",
+     "flags": [
+      "Rs 10,000 ವರೆಗೆ ಕ್ಯಾಶ್ ಬ್ಯಾಕ್"
+     ]
+    }
+   }
+  },
+  {
+   "id": "llama-04",
+   "boss": "llama",
+   "sender": "+91 95500 12987",
+   "channel": "chat",
+   "text": "Dear lucky customer, you are selected for a free Royal Enfield. Pay Rs 3,999 registration to book it.",
+   "scam": true,
+   "loss": 3999,
+   "lesson": "Free vehicle plus registration fee: the fee is the whole scam.",
+   "i18n": {
+    "hi": {
+     "text": "प्रिय भाग्यशाली ग्राहक, आप मुफ़्त Royal Enfield के लिए चुने गए हैं। बुक करने के लिए Rs 3,999 पंजीकरण शुल्क दें।",
+     "lesson": "मुफ़्त गाड़ी के साथ पंजीकरण शुल्क: असली स्कैम वही शुल्क है।",
+     "flags": [
+      "मुफ़्त Royal Enfield",
+      "Rs 3,999 पंजीकरण शुल्क दें"
+     ]
+    },
+    "kn": {
+     "text": "ಪ್ರಿಯ ಅದೃಷ್ಟಶಾಲಿ ಗ್ರಾಹಕರೇ, ನೀವು ಉಚಿತ Royal Enfield ಗೆ ಆಯ್ಕೆಯಾಗಿದ್ದೀರಿ. ಬುಕ್ ಮಾಡಲು Rs 3,999 ನೋಂದಣಿ ಶುಲ್ಕ ಪಾವತಿಸಿ.",
+     "lesson": "ಉಚಿತ ವಾಹನದ ಜೊತೆ ನೋಂದಣಿ ಶುಲ್ಕ: ಆ ಶುಲ್ಕವೇ ಇಡೀ ವಂಚನೆ.",
+     "flags": [
+      "ಉಚಿತ Royal Enfield",
+      "Rs 3,999 ನೋಂದಣಿ ಶುಲ್ಕ ಪಾವತಿಸಿ"
+     ]
+    }
+   }
+  },
+  {
+   "id": "llama-05",
+   "boss": "llama",
+   "sender": "BH-FLPKRT",
+   "channel": "sms",
+   "text": "Flipkart Anniversary: Your gift voucher worth Rs 5,000 expires in 2 hrs. Redeem at flipkart-gifts.click",
+   "scam": true,
+   "loss": 2500,
+   "lesson": "A 2-hour expiry and a .click link push you to act before you think.",
+   "i18n": {
+    "hi": {
+     "text": "Flipkart वर्षगाँठ: आपका Rs 5,000 का गिफ्ट वाउचर 2 घंटे में खत्म हो जाएगा। यहाँ रिडीम करें: flipkart-gifts.click",
+     "lesson": "2 घंटे की समय-सीमा और .click लिंक सोचने का मौका नहीं देते।",
+     "flags": [
+      "2 घंटे में खत्म हो जाएगा"
+     ]
+    },
+    "kn": {
+     "text": "Flipkart ವಾರ್ಷಿಕೋತ್ಸವ: ನಿಮ್ಮ Rs 5,000 ಗಿಫ್ಟ್ ವೋಚರ್ 2 ಗಂಟೆಗಳಲ್ಲಿ ಮುಗಿಯುತ್ತದೆ. ಇಲ್ಲಿ ರಿಡೀಮ್ ಮಾಡಿ: flipkart-gifts.click",
+     "lesson": "2 ಗಂಟೆಗಳ ಗಡುವು ಮತ್ತು .click ಲಿಂಕ್ ನಿಮಗೆ ಯೋಚಿಸಲು ಅವಕಾಶ ಕೊಡುವುದಿಲ್ಲ.",
+     "flags": [
+      "2 ಗಂಟೆಗಳಲ್ಲಿ ಮುಗಿಯುತ್ತದೆ"
+     ]
+    }
+   }
+  },
+  {
+   "id": "llama-06",
+   "boss": "llama",
+   "sender": "+91 70110 44556",
+   "channel": "chat",
+   "text": "Hello, KBC lucky draw 2026. You won 25 lakh. Do not share this with anyone. Contact Mr Rana on WhatsApp.",
+   "scam": true,
+   "loss": 3500,
+   "lesson": "'Don't tell anyone' is how scammers stop others from warning you.",
+   "i18n": {
+    "hi": {
+     "text": "नमस्ते, KBC लकी ड्रॉ 2026। आपने 25 लाख जीते हैं। यह किसी को न बताएँ। WhatsApp पर श्री राणा से संपर्क करें।",
+     "lesson": "'किसी को न बताना' इसलिए कहा जाता है कि कोई और आपको रोक न सके।",
+     "flags": [
+      "25 लाख जीते हैं",
+      "यह किसी को न बताएँ"
+     ]
+    },
+    "kn": {
+     "text": "ನಮಸ್ಕಾರ, KBC ಲಕ್ಕಿ ಡ್ರಾ 2026. ನೀವು 25 ಲಕ್ಷ ಗೆದ್ದಿದ್ದೀರಿ. ಇದನ್ನು ಯಾರಿಗೂ ಹೇಳಬೇಡಿ. WhatsApp ನಲ್ಲಿ ಶ್ರೀ ರಾಣಾ ಅವರನ್ನು ಸಂಪರ್ಕಿಸಿ.",
+     "lesson": "'ಯಾರಿಗೂ ಹೇಳಬೇಡಿ' ಎನ್ನುವುದು ಬೇರೆಯವರು ನಿಮ್ಮನ್ನು ಎಚ್ಚರಿಸದಿರಲಿ ಎಂದು.",
+     "flags": [
+      "25 ಲಕ್ಷ ಗೆದ್ದಿದ್ದೀರಿ",
+      "ಇದನ್ನು ಯಾರಿಗೂ ಹೇಳಬೇಡಿ"
+     ]
+    }
+   }
+  },
+  {
+   "id": "llama-07",
+   "boss": "llama",
+   "sender": "AX-HDFCRW",
+   "channel": "sms",
+   "text": "HDFC reward points Rs 8,950 will lapse today. Redeem via hdfc-rewards-now.top",
+   "scam": true,
+   "loss": 2000,
+   "lesson": "The real bank site is hdfcbank.com, never a '-rewards-now.top' address.",
+   "i18n": {
+    "hi": {
+     "text": "HDFC रिवॉर्ड पॉइंट Rs 8,950 आज खत्म हो जाएँगे। यहाँ रिडीम करें: hdfc-rewards-now.top",
+     "lesson": "बैंक की असली साइट hdfcbank.com है, '-rewards-now.top' नहीं।",
+     "flags": [
+      "आज खत्म हो जाएँगे"
+     ]
+    },
+    "kn": {
+     "text": "HDFC ರಿವಾರ್ಡ್ ಪಾಯಿಂಟ್ಸ್ Rs 8,950 ಇಂದು ಮುಗಿಯುತ್ತವೆ. ಇಲ್ಲಿ ರಿಡೀಮ್ ಮಾಡಿ: hdfc-rewards-now.top",
+     "lesson": "ಬ್ಯಾಂಕ್‌ನ ನಿಜವಾದ ಸೈಟ್ hdfcbank.com, '-rewards-now.top' ಅಲ್ಲ.",
+     "flags": [
+      "ಇಂದು ಮುಗಿಯುತ್ತವೆ"
+     ]
+    }
+   }
+  },
+  {
+   "id": "llama-08",
+   "boss": "llama",
+   "sender": "VM-AMZNIN",
+   "channel": "sms",
+   "text": "Amazon: Prime Day deals start tomorrow at 12 noon. Open the Amazon app to see them. No code needed.",
+   "scam": false,
+   "loss": 0,
+   "lesson": "Genuine: it points you to the app and wants nothing from you.",
+   "i18n": {
+    "hi": {
+     "text": "Amazon: Prime Day के ऑफ़र कल दोपहर 12 बजे शुरू होंगे। ऑफ़र देखने के लिए Amazon ऐप खोलें। किसी कोड की ज़रूरत नहीं।",
+     "lesson": "असली: यह आपको ऐप पर भेजता है और आपसे कुछ नहीं माँगता।",
+     "flags": []
+    },
+    "kn": {
+     "text": "Amazon: Prime Day ಆಫರ್ ನಾಳೆ ಮಧ್ಯಾಹ್ನ 12 ಕ್ಕೆ ಆರಂಭ. ನೋಡಲು Amazon ಆ್ಯಪ್ ತೆರೆಯಿರಿ. ಯಾವುದೇ ಕೋಡ್ ಬೇಕಿಲ್ಲ.",
+     "lesson": "ನಿಜ: ಇದು ಆ್ಯಪ್ ತೆರೆಯಲು ಹೇಳುತ್ತದೆ, ಏನನ್ನೂ ಕೇಳುವುದಿಲ್ಲ.",
+     "flags": []
+    }
+   }
+  },
+  {
+   "id": "llama-09",
+   "boss": "llama",
+   "sender": "Rohan",
+   "channel": "chat",
+   "text": "Bro we won the quiz!! Prize is a Rs 500 voucher, will share it with the team.",
+   "scam": false,
+   "loss": 0,
+   "lesson": "Genuine: a friend who actually took part in the quiz.",
+   "i18n": {
+    "hi": {
+     "text": "यार हमने क्विज़ जीत ली!! इनाम Rs 500 का वाउचर है, टीम में बाँट लेंगे।",
+     "lesson": "असली: दोस्त, जो सच में क्विज़ में शामिल था।",
+     "flags": []
+    },
+    "kn": {
+     "text": "ಮಗಾ, ನಾವು ರಸಪ್ರಶ್ನೆ ಗೆದ್ದೆವು!! ಬಹುಮಾನ Rs 500 ವೋಚರ್, ತಂಡದೊಂದಿಗೆ ಹಂಚಿಕೊಳ್ಳುತ್ತೇನೆ.",
+     "lesson": "ನಿಜ: ರಸಪ್ರಶ್ನೆಯಲ್ಲಿ ನಿಜವಾಗಿ ಭಾಗವಹಿಸಿದ ಸ್ನೇಹಿತ.",
+     "flags": []
+    }
+   }
+  },
+  {
+   "id": "llama-10",
+   "boss": "llama",
+   "sender": "AX-ZOMATO",
+   "channel": "sms",
+   "text": "Zomato: Rs 100 off your next order, auto-applied at checkout. Valid till Sunday.",
+   "scam": false,
+   "loss": 0,
+   "lesson": "Genuine: a discount applied automatically, with no link or fee.",
+   "i18n": {
+    "hi": {
+     "text": "Zomato: अगले ऑर्डर पर Rs 100 की छूट, चेकआउट पर अपने-आप लगेगी। रविवार तक मान्य।",
+     "lesson": "असली: छूट अपने-आप लगती है, न लिंक है न शुल्क।",
+     "flags": []
+    },
+    "kn": {
+     "text": "Zomato: ನಿಮ್ಮ ಮುಂದಿನ ಆರ್ಡರ್ ಗೆ Rs 100 ರಿಯಾಯಿತಿ, ಚೆಕ್ ಔಟ್ ನಲ್ಲಿ ತಾನಾಗಿಯೇ ಅನ್ವಯವಾಗುತ್ತದೆ. ಭಾನುವಾರದವರೆಗೆ ಮಾನ್ಯ.",
+     "lesson": "ನಿಜ: ರಿಯಾಯಿತಿ ತಾನಾಗಿಯೇ ಅನ್ವಯವಾಗುತ್ತದೆ, ಲಿಂಕ್ ಅಥವಾ ಶುಲ್ಕ ಇಲ್ಲ.",
+     "flags": []
+    }
+   }
+  },
+  {
+   "id": "llama-11",
+   "boss": "llama",
+   "sender": "Fest Team",
+   "channel": "chat",
+   "text": "Congratulations! Your fest raffle ticket #214 won the second prize. Collect your hamper from the student desk with your ID.",
+   "scam": false,
+   "loss": 0,
+   "lesson": "Genuine: you did buy a ticket, and you collect it in person with no payment.",
+   "i18n": {
+    "hi": {
+     "text": "बधाई! आपके फेस्ट रैफल टिकट #214 ने दूसरा इनाम जीता है। अपनी आईडी के साथ स्टूडेंट डेस्क से हैम्पर ले जाएँ।",
+     "lesson": "असली: आपने टिकट खरीदा था, और इनाम खुद जाकर लेना है, कोई भुगतान नहीं।",
+     "flags": []
+    },
+    "kn": {
+     "text": "ಅಭಿನಂದನೆಗಳು! ನಿಮ್ಮ ಫೆಸ್ಟ್ ರಾಫಲ್ ಟಿಕೆಟ್ #214 ಎರಡನೇ ಬಹುಮಾನ ಗೆದ್ದಿದೆ. ನಿಮ್ಮ ಐಡಿಯೊಂದಿಗೆ ವಿದ್ಯಾರ್ಥಿ ಡೆಸ್ಕ್ ನಿಂದ ಹ್ಯಾಂಪರ್ ಪಡೆಯಿರಿ.",
+     "lesson": "ನಿಜ: ನೀವು ಟಿಕೆಟ್ ಖರೀದಿಸಿದ್ದೀರಿ, ಮತ್ತು ಬಹುಮಾನವನ್ನು ನೀವೇ ಹೋಗಿ ಪಡೆಯಬೇಕು, ಪಾವತಿ ಇಲ್ಲ.",
+     "flags": []
+    }
+   }
+  },
+  {
+   "id": "octopus-01",
+   "boss": "octopus",
+   "sender": "+91 98200 11223",
+   "channel": "chat",
+   "text": "Sir I'm from SBI fraud team. A payment of Rs 49,999 is pending. Share the OTP now to stop it.",
+   "scam": true,
+   "loss": 3500,
+   "lesson": "Fraud teams don't need your OTP. The code is what lets the thief in.",
+   "i18n": {
+    "hi": {
+     "text": "सर मैं SBI फ्रॉड टीम से हूँ। Rs 49,999 का भुगतान लंबित है। रोकने के लिए अभी OTP बताइए।",
+     "lesson": "फ्रॉड टीम को आपका OTP नहीं चाहिए। वही कोड चोर को अंदर आने देता है।",
+     "flags": [
+      "अभी OTP बताइए"
+     ]
+    },
+    "kn": {
+     "text": "ಸರ್, ನಾನು SBI ವಂಚನೆ ತಂಡದಿಂದ. Rs 49,999 ಪಾವತಿ ಬಾಕಿ ಇದೆ. ತಡೆಯಲು ಈಗಲೇ OTP ಹೇಳಿ.",
+     "lesson": "ವಂಚನೆ ತಂಡಕ್ಕೆ ನಿಮ್ಮ OTP ಬೇಡ. ಆ ಕೋಡ್ ಕಳ್ಳನನ್ನು ಒಳಗೆ ಬಿಡುತ್ತದೆ.",
+     "flags": [
+      "ಈಗಲೇ OTP ಹೇಳಿ"
+     ]
+    }
+   }
+  },
+  {
+   "id": "octopus-02",
+   "boss": "octopus",
+   "sender": "+91 90040 66778",
+   "channel": "chat",
+   "text": "Wrong transfer: I sent you Rs 5,000 by mistake. Please accept my request and enter PIN to send it back.",
+   "scam": true,
+   "loss": 3000,
+   "lesson": "Entering a PIN sends money OUT. You never need a PIN to receive.",
+   "i18n": {
+    "hi": {
+     "text": "गलत ट्रांसफ़र: मैंने गलती से आपको Rs 5,000 भेज दिए। कृपया मेरा अनुरोध स्वीकार करें और वापस भेजने के लिए PIN डालें।",
+     "lesson": "PIN डालने से पैसा बाहर जाता है। पैसा पाने के लिए PIN की ज़रूरत नहीं होती।",
+     "flags": [
+      "वापस भेजने के लिए PIN डालें",
+      "मेरा अनुरोध स्वीकार करें"
+     ]
+    },
+    "kn": {
+     "text": "ತಪ್ಪು ವರ್ಗಾವಣೆ: ನಾನು ತಪ್ಪಾಗಿ ನಿಮಗೆ Rs 5,000 ಕಳುಹಿಸಿದೆ. ದಯವಿಟ್ಟು ನನ್ನ ವಿನಂತಿ ಸ್ವೀಕರಿಸಿ ಮತ್ತು ವಾಪಸ್ ಕಳುಹಿಸಲು PIN ನಮೂದಿಸಿ.",
+     "lesson": "PIN ನಮೂದಿಸಿದರೆ ಹಣ ಹೊರಗೆ ಹೋಗುತ್ತದೆ. ಹಣ ಪಡೆಯಲು PIN ಬೇಕಿಲ್ಲ.",
+     "flags": [
+      "ವಾಪಸ್ ಕಳುಹಿಸಲು PIN ನಮೂದಿಸಿ",
+      "ನನ್ನ ವಿನಂತಿ ಸ್ವೀಕರಿಸಿ"
+     ]
+    }
+   }
+  },
+  {
+   "id": "octopus-03",
+   "boss": "octopus",
+   "sender": "VM-GPAYIN",
+   "channel": "sms",
+   "text": "GPay: Your Rs 2,000 reward is ready. Open the request in your app and enter UPI PIN to receive.",
+   "scam": true,
+   "loss": 2000,
+   "lesson": "'Receive' plus 'enter PIN' can't both be true.",
+   "i18n": {
+    "hi": {
+     "text": "GPay: आपका Rs 2,000 का इनाम तैयार है। ऐप में अनुरोध खोलें और पाने के लिए UPI PIN डालें।",
+     "lesson": "'पाना' और 'PIN डालना' दोनों एक साथ सच नहीं हो सकते।",
+     "flags": [
+      "पाने के लिए UPI PIN डालें"
+     ]
+    },
+    "kn": {
+     "text": "GPay: ನಿಮ್ಮ Rs 2,000 ಬಹುಮಾನ ಸಿದ್ಧವಿದೆ. ಆ್ಯಪ್ ನಲ್ಲಿ ವಿನಂತಿ ತೆರೆದು ಪಡೆಯಲು UPI PIN ನಮೂದಿಸಿ.",
+     "lesson": "'ಪಡೆಯಲು' ಮತ್ತು 'PIN ನಮೂದಿಸಿ' ಎರಡೂ ಒಟ್ಟಿಗೆ ನಿಜವಾಗಲು ಸಾಧ್ಯವಿಲ್ಲ.",
+     "flags": [
+      "ಪಡೆಯಲು UPI PIN ನಮೂದಿಸಿ"
+     ]
+    }
+   }
+  },
+  {
+   "id": "octopus-04",
+   "boss": "octopus",
+   "sender": "+91 81230 99010",
+   "channel": "chat",
+   "text": "Your electricity subsidy of Rs 1,500 is approved. Scan the QR attached and put your PIN to get it.",
+   "scam": true,
+   "loss": 1500,
+   "lesson": "Scanning a QR and entering a PIN pays money away. It never brings money in.",
+   "i18n": {
+    "hi": {
+     "text": "आपकी बिजली सब्सिडी Rs 1,500 मंज़ूर हुई है। संलग्न QR स्कैन करें और पाने के लिए PIN डालें।",
+     "lesson": "QR स्कैन करके PIN डालने से पैसा बाहर जाता है, अंदर नहीं आता।",
+     "flags": [
+      "QR स्कैन करें और पाने के लिए PIN डालें"
+     ]
+    },
+    "kn": {
+     "text": "ನಿಮ್ಮ ವಿದ್ಯುತ್ ಸಬ್ಸಿಡಿ Rs 1,500 ಮಂಜೂರಾಗಿದೆ. ಲಗತ್ತಿಸಿದ QR ಸ್ಕ್ಯಾನ್ ಮಾಡಿ ಮತ್ತು ಪಡೆಯಲು PIN ಹಾಕಿ.",
+     "lesson": "QR ಸ್ಕ್ಯಾನ್ ಮಾಡಿ PIN ಹಾಕಿದರೆ ಹಣ ಹೊರಗೆ ಹೋಗುತ್ತದೆ, ಒಳಗೆ ಬರುವುದಿಲ್ಲ.",
+     "flags": [
+      "QR ಸ್ಕ್ಯಾನ್ ಮಾಡಿ ಮತ್ತು ಪಡೆಯಲು PIN ಹಾಕಿ"
+     ]
+    }
+   }
+  },
+  {
+   "id": "octopus-05",
+   "boss": "octopus",
+   "sender": "+91 99870 55123",
+   "channel": "chat",
+   "text": "I'm calling from Airtel. Your SIM will deactivate, read me the code that just came to you.",
+   "scam": true,
+   "loss": 2500,
+   "lesson": "That code is an OTP. Never read it to anyone who called you.",
+   "i18n": {
+    "hi": {
+     "text": "मैं Airtel से बोल रहा हूँ। आपका SIM बंद हो जाएगा, अभी आए कोड को मुझे पढ़कर सुनाइए।",
+     "lesson": "वह कोड OTP है। फ़ोन करने वाले को कभी न बताएँ।",
+     "flags": [
+      "अभी आए कोड को मुझे पढ़कर सुनाइए"
+     ]
+    },
+    "kn": {
+     "text": "ನಾನು Airtel ನಿಂದ ಕರೆ ಮಾಡುತ್ತಿದ್ದೇನೆ. ನಿಮ್ಮ SIM ನಿಷ್ಕ್ರಿಯವಾಗುತ್ತದೆ, ಈಗ ಬಂದ ಕೋಡ್ ನನಗೆ ಓದಿ ಹೇಳಿ.",
+     "lesson": "ಆ ಕೋಡ್ ಒಂದು OTP. ಕರೆ ಮಾಡಿದವರಿಗೆ ಎಂದಿಗೂ ಹೇಳಬೇಡಿ.",
+     "flags": [
+      "ಈಗ ಬಂದ ಕೋಡ್ ನನಗೆ ಓದಿ ಹೇಳಿ"
+     ]
+    }
+   }
+  },
+  {
+   "id": "octopus-06",
+   "boss": "octopus",
+   "sender": "BK-ICICIB",
+   "channel": "sms",
+   "text": "ICICI: Card blocked. Reply with the OTP sent to you and your card CVV to unblock.",
+   "scam": true,
+   "loss": 3000,
+   "lesson": "Banks never ask for the CVV or OTP by message.",
+   "i18n": {
+    "hi": {
+     "text": "ICICI: कार्ड ब्लॉक है। अनब्लॉक करने के लिए आपको भेजा OTP और कार्ड का CVV भेजें।",
+     "lesson": "बैंक मैसेज पर CVV या OTP कभी नहीं माँगते।",
+     "flags": [
+      "OTP और कार्ड का CVV भेजें"
+     ]
+    },
+    "kn": {
+     "text": "ICICI: ಕಾರ್ಡ್ ನಿರ್ಬಂಧಿತವಾಗಿದೆ. ಅನ್ ಬ್ಲಾಕ್ ಮಾಡಲು ನಿಮಗೆ ಬಂದ OTP ಮತ್ತು ಕಾರ್ಡ್ CVV ಕಳುಹಿಸಿ.",
+     "lesson": "ಬ್ಯಾಂಕ್‌ಗಳು ಸಂದೇಶದಲ್ಲಿ CVV ಅಥವಾ OTP ಎಂದಿಗೂ ಕೇಳುವುದಿಲ್ಲ.",
+     "flags": [
+      "OTP ಮತ್ತು ಕಾರ್ಡ್ CVV ಕಳುಹಿಸಿ"
+     ]
+    }
+   }
+  },
+  {
+   "id": "octopus-07",
+   "boss": "octopus",
+   "sender": "+91 70001 22334",
+   "channel": "chat",
+   "text": "Refund on your order is stuck. Share your UPI PIN so the refund can be released.",
+   "scam": true,
+   "loss": 2000,
+   "lesson": "No refund ever needs your PIN.",
+   "i18n": {
+    "hi": {
+     "text": "आपके ऑर्डर का रिफंड अटका है। रिफंड जारी करने के लिए अपना UPI PIN बताइए।",
+     "lesson": "किसी भी रिफंड के लिए आपका PIN नहीं चाहिए।",
+     "flags": [
+      "अपना UPI PIN बताइए"
+     ]
+    },
+    "kn": {
+     "text": "ನಿಮ್ಮ ಆರ್ಡರ್ ರಿಫಂಡ್ ಸಿಲುಕಿದೆ. ರಿಫಂಡ್ ಬಿಡುಗಡೆ ಮಾಡಲು ನಿಮ್ಮ UPI PIN ಹೇಳಿ.",
+     "lesson": "ಯಾವುದೇ ರಿಫಂಡ್ ಗೆ ನಿಮ್ಮ PIN ಬೇಕಿಲ್ಲ.",
+     "flags": [
+      "ನಿಮ್ಮ UPI PIN ಹೇಳಿ"
+     ]
+    }
+   }
+  },
+  {
+   "id": "octopus-08",
+   "boss": "octopus",
+   "sender": "VK-HDFCBK",
+   "channel": "sms",
+   "text": "845120 is your OTP for HDFC NetBanking login. Valid 5 mins. Do not share with anyone, HDFC never asks.",
+   "scam": false,
+   "loss": 0,
+   "lesson": "Genuine: you asked for this code, and it warns you not to share it.",
+   "i18n": {
+    "hi": {
+     "text": "845120 आपके HDFC नेटबैंकिंग लॉगिन का OTP है। 5 मिनट मान्य। किसी को न बताएँ, HDFC कभी नहीं माँगता।",
+     "lesson": "असली: आपने ही यह कोड माँगा था, और यह किसी को न बताने की चेतावनी देता है।",
+     "flags": []
+    },
+    "kn": {
+     "text": "845120 ನಿಮ್ಮ HDFC ನೆಟ್ ಬ್ಯಾಂಕಿಂಗ್ ಲಾಗಿನ್ OTP. 5 ನಿಮಿಷ ಮಾನ್ಯ. ಯಾರಿಗೂ ಹೇಳಬೇಡಿ, HDFC ಎಂದಿಗೂ ಕೇಳುವುದಿಲ್ಲ.",
+     "lesson": "ನಿಜ: ಈ ಕೋಡ್ ನೀವೇ ಕೇಳಿದ್ದು, ಮತ್ತು ಯಾರಿಗೂ ಹೇಳಬೇಡಿ ಎಂದು ಎಚ್ಚರಿಸುತ್ತದೆ.",
+     "flags": []
+    }
+   }
+  },
+  {
+   "id": "octopus-09",
+   "boss": "octopus",
+   "sender": "JD-PHONEP",
+   "channel": "sms",
+   "text": "PhonePe: You paid Rs 120 to Sharma Tea Stall. UPI Ref 4455667788. Check history in the app.",
+   "scam": false,
+   "loss": 0,
+   "lesson": "Genuine: a plain receipt for a payment you made.",
+   "i18n": {
+    "hi": {
+     "text": "PhonePe: आपने Sharma Tea Stall को Rs 120 दिए। UPI Ref 4455667788। ऐप में इतिहास देखें।",
+     "lesson": "असली: आपके किए भुगतान की सीधी रसीद।",
+     "flags": []
+    },
+    "kn": {
+     "text": "PhonePe: ನೀವು Sharma Tea Stall ಗೆ Rs 120 ಪಾವತಿಸಿದ್ದೀರಿ. UPI Ref 4455667788. ಆ್ಯಪ್ ನಲ್ಲಿ ಇತಿಹಾಸ ನೋಡಿ.",
+     "lesson": "ನಿಜ: ನೀವು ಮಾಡಿದ ಪಾವತಿಯ ಸರಳ ರಸೀದಿ.",
+     "flags": []
+    }
+   }
+  },
+  {
+   "id": "octopus-10",
+   "boss": "octopus",
+   "sender": "Amit",
+   "channel": "chat",
+   "text": "Sent you Rs 1,000 for the movie tickets. Check GPay and let me know!",
+   "scam": false,
+   "loss": 0,
+   "lesson": "Genuine: a friend telling you to check your own app, with no request to approve.",
+   "i18n": {
+    "hi": {
+     "text": "तुझे फ़िल्म की टिकट के लिए Rs 1,000 भेज दिए हैं। GPay देख ले और बता!",
+     "lesson": "असली: दोस्त आपको अपना ऐप देखने को कह रहा है, कोई अनुरोध स्वीकार करने को नहीं।",
+     "flags": []
+    },
+    "kn": {
+     "text": "ಸಿನಿಮಾ ಟಿಕೆಟ್ ಗೆ Rs 1,000 ಕಳುಹಿಸಿದ್ದೇನೆ. GPay ನೋಡಿ ತಿಳಿಸು!",
+     "lesson": "ನಿಜ: ಸ್ನೇಹಿತ ನಿಮ್ಮ ಸ್ವಂತ ಆ್ಯಪ್ ನೋಡಲು ಹೇಳುತ್ತಿದ್ದಾನೆ, ವಿನಂತಿ ಸ್ವೀಕರಿಸಲು ಅಲ್ಲ.",
+     "flags": []
+    }
+   }
+  },
+  {
+   "id": "octopus-11",
+   "boss": "octopus",
+   "sender": "AX-UBERIN",
+   "channel": "sms",
+   "text": "Your Uber OTP is 3351. Share it with the driver only when you board.",
+   "scam": false,
+   "loss": 0,
+   "lesson": "Genuine: you booked the ride, and this OTP is meant for the driver.",
+   "i18n": {
+    "hi": {
+     "text": "आपकी Uber OTP 3351 है। सवार होने पर ही ड्राइवर को बताएँ।",
+     "lesson": "असली: आपने राइड बुक की थी, और यह OTP ड्राइवर के लिए ही है।",
+     "flags": []
+    },
+    "kn": {
+     "text": "ನಿಮ್ಮ Uber OTP 3351. ನೀವು ಹತ್ತಿದಾಗ ಮಾತ್ರ ಚಾಲಕನಿಗೆ ಹೇಳಿ.",
+     "lesson": "ನಿಜ: ನೀವೇ ರೈಡ್ ಬುಕ್ ಮಾಡಿದ್ದೀರಿ, ಈ OTP ಚಾಲಕನಿಗಾಗಿ ಮಾತ್ರ.",
+     "flags": []
+    }
+   }
+  },
+  {
+   "id": "jackal-01",
+   "boss": "jackal",
+   "sender": "+91 70220 31145",
+   "channel": "chat",
+   "text": "Earn Rs 3,500 daily from home! Just rate hotels on Google. Join WhatsApp group now.",
+   "scam": true,
+   "loss": 2500,
+   "lesson": "Paying for ratings is the classic task scam. It starts free and then asks for deposits.",
+   "i18n": {
+    "hi": {
+     "text": "घर बैठे रोज़ Rs 3,500 कमाइए! बस Google पर होटल को रेट करें। अभी WhatsApp ग्रुप जॉइन करें।",
+     "lesson": "रेटिंग के बदले पैसे वाला काम ठगी का पुराना तरीका है। पहले मुफ़्त, फिर जमा की माँग।",
+     "flags": [
+      "घर बैठे रोज़ Rs 3,500 कमाइए",
+      "WhatsApp ग्रुप जॉइन करें"
+     ]
+    },
+    "kn": {
+     "text": "ಮನೆಯಲ್ಲೇ ಕುಳಿತು ದಿನಕ್ಕೆ Rs 3,500 ಗಳಿಸಿ! ಕೇವಲ Google ನಲ್ಲಿ ಹೋಟೆಲ್ ಗಳಿಗೆ ರೇಟಿಂಗ್ ಕೊಡಿ. ಈಗಲೇ WhatsApp ಗುಂಪು ಸೇರಿ.",
+     "lesson": "ರೇಟಿಂಗ್ ಗೆ ಹಣ ಎಂಬುದು ವಂಚನೆಯ ಹಳೆಯ ವಿಧಾನ. ಮೊದಲು ಉಚಿತ, ನಂತರ ಠೇವಣಿ ಕೇಳುತ್ತಾರೆ.",
+     "flags": [
+      "ದಿನಕ್ಕೆ Rs 3,500 ಗಳಿಸಿ",
+      "WhatsApp ಗುಂಪು ಸೇರಿ"
+     ]
+    }
+   }
+  },
+  {
+   "id": "jackal-02",
+   "boss": "jackal",
+   "sender": "+91 99100 77788",
+   "channel": "chat",
+   "text": "Hi, I'm HR from Amazon. Part-time task job, 30 min/day, Rs 15,000 per week. Telegram me for details.",
+   "scam": true,
+   "loss": 3000,
+   "lesson": "Real HR doesn't recruit from random numbers or move you to Telegram.",
+   "i18n": {
+    "hi": {
+     "text": "नमस्ते, मैं Amazon से HR हूँ। पार्ट-टाइम टास्क जॉब, रोज़ 30 मिनट, हफ़्ते के Rs 15,000। जानकारी के लिए Telegram पर मैसेज करें।",
+     "lesson": "असली HR अनजान नंबर से भर्ती नहीं करता और Telegram पर नहीं बुलाता।",
+     "flags": [
+      "पार्ट-टाइम टास्क जॉब",
+      "हफ़्ते के Rs 15,000",
+      "Telegram पर मैसेज करें"
+     ]
+    },
+    "kn": {
+     "text": "ನಮಸ್ಕಾರ, ನಾನು Amazon ನಿಂದ HR. ಪಾರ್ಟ್ ಟೈಮ್ ಟಾಸ್ಕ್ ಕೆಲಸ, ದಿನಕ್ಕೆ 30 ನಿಮಿಷ, ವಾರಕ್ಕೆ Rs 15,000. ವಿವರಕ್ಕೆ Telegram ನಲ್ಲಿ ಸಂದೇಶ ಕಳುಹಿಸಿ.",
+     "lesson": "ನಿಜವಾದ HR ಅಪರಿಚಿತ ಸಂಖ್ಯೆಯಿಂದ ನೇಮಕ ಮಾಡುವುದಿಲ್ಲ, Telegram ಗೆ ಕರೆಯುವುದಿಲ್ಲ.",
+     "flags": [
+      "ಪಾರ್ಟ್ ಟೈಮ್ ಟಾಸ್ಕ್ ಕೆಲಸ",
+      "ವಾರಕ್ಕೆ Rs 15,000",
+      "Telegram ನಲ್ಲಿ ಸಂದೇಶ ಕಳುಹಿಸಿ"
+     ]
+    }
+   }
+  },
+  {
+   "id": "jackal-03",
+   "boss": "jackal",
+   "sender": "VM-JOBALR",
+   "channel": "sms",
+   "text": "Selected! Data entry work from home, 40,000/month. Registration fee Rs 999 refundable. Pay: jobs-register.top",
+   "scam": true,
+   "loss": 999,
+   "lesson": "'Refundable' fees are never refunded.",
+   "i18n": {
+    "hi": {
+     "text": "चयन हो गया! घर से डेटा एंट्री, 40,000/माह। पंजीकरण शुल्क Rs 999 वापसी योग्य। भुगतान करें: jobs-register.top",
+     "lesson": "'वापसी योग्य' शुल्क कभी वापस नहीं होता।",
+     "flags": [
+      "पंजीकरण शुल्क Rs 999 वापसी योग्य",
+      "40,000/माह"
+     ]
+    },
+    "kn": {
+     "text": "ಆಯ್ಕೆಯಾಗಿದ್ದೀರಿ! ಮನೆಯಿಂದ ಡೇಟಾ ಎಂಟ್ರಿ, ತಿಂಗಳಿಗೆ 40,000. ನೋಂದಣಿ ಶುಲ್ಕ Rs 999 ಮರುಪಾವತಿಸಬಹುದು. ಪಾವತಿಸಿ: jobs-register.top",
+     "lesson": "'ಮರುಪಾವತಿಸಬಹುದಾದ' ಶುಲ್ಕ ಎಂದಿಗೂ ಹಿಂತಿರುಗುವುದಿಲ್ಲ.",
+     "flags": [
+      "ನೋಂದಣಿ ಶುಲ್ಕ Rs 999 ಮರುಪಾವತಿಸಬಹುದು",
+      "ತಿಂಗಳಿಗೆ 40,000"
+     ]
+    }
+   }
+  },
+  {
+   "id": "jackal-04",
+   "boss": "jackal",
+   "sender": "+91 80100 44332",
+   "channel": "chat",
+   "text": "Wipro HR: Your joining letter is ready. Pay Rs 6,500 for laptop security deposit to confirm.",
+   "scam": true,
+   "loss": 3500,
+   "lesson": "Companies give you a laptop. They don't ask for deposits.",
+   "i18n": {
+    "hi": {
+     "text": "Wipro HR: आपका जॉइनिंग लेटर तैयार है। पुष्टि के लिए लैपटॉप सिक्योरिटी डिपॉज़िट Rs 6,500 दें।",
+     "lesson": "कंपनियाँ लैपटॉप देती हैं, डिपॉज़िट नहीं माँगतीं।",
+     "flags": [
+      "लैपटॉप सिक्योरिटी डिपॉज़िट Rs 6,500 दें"
+     ]
+    },
+    "kn": {
+     "text": "Wipro HR: ನಿಮ್ಮ ಜಾಯಿನಿಂಗ್ ಲೆಟರ್ ಸಿದ್ಧವಾಗಿದೆ. ದೃಢೀಕರಿಸಲು ಲ್ಯಾಪ್ ಟಾಪ್ ಭದ್ರತಾ ಠೇವಣಿ Rs 6,500 ಪಾವತಿಸಿ.",
+     "lesson": "ಕಂಪನಿಗಳು ಲ್ಯಾಪ್ ಟಾಪ್ ಕೊಡುತ್ತವೆ, ಠೇವಣಿ ಕೇಳುವುದಿಲ್ಲ.",
+     "flags": [
+      "ಭದ್ರತಾ ಠೇವಣಿ Rs 6,500 ಪಾವತಿಸಿ"
+     ]
+    }
+   }
+  },
+  {
+   "id": "jackal-05",
+   "boss": "jackal",
+   "sender": "+91 63021 55987",
+   "channel": "chat",
+   "text": "YouTube like task: earn Rs 50 per like. First task free. Click t.me/likestoearn_india",
+   "scam": true,
+   "loss": 2000,
+   "lesson": "The first task pays to hook you, then they ask you to 'invest'.",
+   "i18n": {
+    "hi": {
+     "text": "YouTube लाइक टास्क: हर लाइक पर Rs 50 कमाएँ। पहला टास्क मुफ़्त। क्लिक करें t.me/likestoearn_india",
+     "lesson": "पहला टास्क फँसाने के लिए चुकाया जाता है, फिर 'निवेश' माँगा जाता है।",
+     "flags": [
+      "हर लाइक पर Rs 50 कमाएँ"
+     ]
+    },
+    "kn": {
+     "text": "YouTube ಲೈಕ್ ಟಾಸ್ಕ್: ಪ್ರತಿ ಲೈಕ್ ಗೆ Rs 50 ಗಳಿಸಿ. ಮೊದಲ ಟಾಸ್ಕ್ ಉಚಿತ. ಕ್ಲಿಕ್ ಮಾಡಿ t.me/likestoearn_india",
+     "lesson": "ಮೊದಲ ಟಾಸ್ಕ್ ಗೆ ಹಣ ಕೊಡುವುದು ನಿಮ್ಮನ್ನು ಸೆಳೆಯಲು, ನಂತರ 'ಹೂಡಿಕೆ' ಕೇಳುತ್ತಾರೆ.",
+     "flags": [
+      "ಪ್ರತಿ ಲೈಕ್ ಗೆ Rs 50 ಗಳಿಸಿ"
+     ]
+    }
+   }
+  },
+  {
+   "id": "jackal-06",
+   "boss": "jackal",
+   "sender": "+91 98765 11000",
+   "channel": "chat",
+   "text": "We saw your resume. Easy online job, no interview. Send Rs 1,200 processing fee to start tomorrow.",
+   "scam": true,
+   "loss": 1200,
+   "lesson": "No interview and an upfront fee means there's no job.",
+   "i18n": {
+    "hi": {
+     "text": "हमने आपका रिज़्यूमे देखा। आसान ऑनलाइन जॉब, इंटरव्यू नहीं। कल से शुरू करने के लिए Rs 1,200 प्रोसेसिंग फ़ीस भेजें।",
+     "lesson": "इंटरव्यू नहीं और पहले शुल्क: मतलब कोई नौकरी है ही नहीं।",
+     "flags": [
+      "इंटरव्यू नहीं",
+      "Rs 1,200 प्रोसेसिंग फ़ीस भेजें"
+     ]
+    },
+    "kn": {
+     "text": "ನಿಮ್ಮ ರೆಸ್ಯೂಮ್ ನೋಡಿದೆವು. ಸುಲಭ ಆನ್ ಲೈನ್ ಕೆಲಸ, ಸಂದರ್ಶನ ಇಲ್ಲ. ನಾಳೆಯಿಂದ ಆರಂಭಿಸಲು Rs 1,200 ಪ್ರೊಸೆಸಿಂಗ್ ಶುಲ್ಕ ಕಳುಹಿಸಿ.",
+     "lesson": "ಸಂದರ್ಶನ ಇಲ್ಲ ಮತ್ತು ಮೊದಲೇ ಶುಲ್ಕ: ಅಂದರೆ ಯಾವುದೇ ಕೆಲಸ ಇಲ್ಲ.",
+     "flags": [
+      "ಸಂದರ್ಶನ ಇಲ್ಲ",
+      "Rs 1,200 ಪ್ರೊಸೆಸಿಂಗ್ ಶುಲ್ಕ ಕಳುಹಿಸಿ"
+     ]
+    }
+   }
+  },
+  {
+   "id": "jackal-07",
+   "boss": "jackal",
+   "sender": "+91 70770 12345",
+   "channel": "chat",
+   "text": "Congratulations, you got work-from-home with Meesho, Rs 800 per order check. Share Aadhaar and OTP to register.",
+   "scam": true,
+   "loss": 3000,
+   "lesson": "Aadhaar and OTP are for banks and government, not for a job.",
+   "i18n": {
+    "hi": {
+     "text": "बधाई, Meesho के साथ वर्क-फ़्रॉम-होम मिला, हर ऑर्डर जाँच पर Rs 800। रजिस्टर करने के लिए आधार और OTP भेजें।",
+     "lesson": "आधार और OTP बैंक और सरकार के लिए हैं, नौकरी के लिए नहीं।",
+     "flags": [
+      "आधार और OTP भेजें",
+      "हर ऑर्डर जाँच पर Rs 800"
+     ]
+    },
+    "kn": {
+     "text": "ಅಭಿನಂದನೆಗಳು, Meesho ನೊಂದಿಗೆ ವರ್ಕ್ ಫ್ರಮ್ ಹೋಮ್ ಸಿಕ್ಕಿದೆ, ಪ್ರತಿ ಆರ್ಡರ್ ಪರಿಶೀಲನೆಗೆ Rs 800. ನೋಂದಣಿಗೆ ಆಧಾರ್ ಮತ್ತು OTP ಕಳುಹಿಸಿ.",
+     "lesson": "ಆಧಾರ್ ಮತ್ತು OTP ಬ್ಯಾಂಕ್ ಮತ್ತು ಸರ್ಕಾರಕ್ಕೆ, ಕೆಲಸಕ್ಕಲ್ಲ.",
+     "flags": [
+      "ಆಧಾರ್ ಮತ್ತು OTP ಕಳುಹಿಸಿ",
+      "ಪ್ರತಿ ಆರ್ಡರ್ ಪರಿಶೀಲನೆಗೆ Rs 800"
+     ]
+    }
+   }
+  },
+  {
+   "id": "jackal-08",
+   "boss": "jackal",
+   "sender": "LinkedIn",
+   "channel": "chat",
+   "text": "A recruiter at TCS viewed your profile. See who is hiring for Business Analyst roles in Mumbai.",
+   "scam": false,
+   "loss": 0,
+   "lesson": "Genuine: a standard platform notification with nothing to pay or share.",
+   "i18n": {
+    "hi": {
+     "text": "LinkedIn: TCS के एक रिक्रूटर ने आपकी प्रोफ़ाइल देखी। मुंबई में बिज़नेस एनालिस्ट की भर्तियाँ देखें।",
+     "lesson": "असली: प्लेटफ़ॉर्म की सामान्य सूचना, न भुगतान न कोई जानकारी माँगी।",
+     "flags": []
+    },
+    "kn": {
+     "text": "LinkedIn: TCS ನ ರಿಕ್ರೂಟರ್ ನಿಮ್ಮ ಪ್ರೊಫೈಲ್ ನೋಡಿದ್ದಾರೆ. ಮುಂಬೈನಲ್ಲಿ ಬ್ಯುಸಿನೆಸ್ ಅನಾಲಿಸ್ಟ್ ನೇಮಕಾತಿಗಳನ್ನು ನೋಡಿ.",
+     "lesson": "ನಿಜ: ವೇದಿಕೆಯ ಸಾಮಾನ್ಯ ಸೂಚನೆ, ಪಾವತಿ ಅಥವಾ ವಿವರ ಕೇಳುವುದಿಲ್ಲ.",
+     "flags": []
+    }
+   }
+  },
+  {
+   "id": "jackal-09",
+   "boss": "jackal",
+   "sender": "Ritu (HR)",
+   "channel": "chat",
+   "text": "Hi Sneha, this is Ritu from Infosys HR. Your interview is on Tuesday at 11 am. We'll send a Teams link to your registered email.",
+   "scam": false,
+   "loss": 0,
+   "lesson": "Genuine: scheduled interview, official email, no fee.",
+   "i18n": {
+    "hi": {
+     "text": "नमस्ते स्नेहा, मैं Infosys HR से रितु बोल रही हूँ। आपका इंटरव्यू मंगलवार सुबह 11 बजे है। Teams लिंक आपके पंजीकृत ईमेल पर भेजेंगे।",
+     "lesson": "असली: तय इंटरव्यू, आधिकारिक ईमेल, कोई शुल्क नहीं।",
+     "flags": []
+    },
+    "kn": {
+     "text": "ನಮಸ್ಕಾರ ಸ್ನೇಹಾ, ನಾನು Infosys HR ನಿಂದ ರಿತು. ನಿಮ್ಮ ಸಂದರ್ಶನ ಮಂಗಳವಾರ ಬೆಳಿಗ್ಗೆ 11 ಕ್ಕೆ. Teams ಲಿಂಕ್ ನಿಮ್ಮ ನೋಂದಾಯಿತ ಇಮೇಲ್ ಗೆ ಕಳುಹಿಸುತ್ತೇವೆ.",
+     "lesson": "ನಿಜ: ನಿಗದಿತ ಸಂದರ್ಶನ, ಅಧಿಕೃತ ಇಮೇಲ್, ಶುಲ್ಕ ಇಲ್ಲ.",
+     "flags": []
+    }
+   }
+  },
+  {
+   "id": "jackal-10",
+   "boss": "jackal",
+   "sender": "HR Desk",
+   "channel": "chat",
+   "text": "Your background verification is complete. No payment is required from you at any stage. Welcome aboard!",
+   "scam": false,
+   "loss": 0,
+   "lesson": "Genuine: it explicitly says nothing is payable.",
+   "i18n": {
+    "hi": {
+     "text": "आपकी बैकग्राउंड वेरिफ़िकेशन पूरी हो गई। किसी भी चरण पर आपसे भुगतान नहीं लिया जाएगा। स्वागत है!",
+     "lesson": "असली: साफ़ लिखा है कि कुछ भुगतान नहीं करना है।",
+     "flags": []
+    },
+    "kn": {
+     "text": "ನಿಮ್ಮ ಹಿನ್ನೆಲೆ ಪರಿಶೀಲನೆ ಪೂರ್ಣಗೊಂಡಿದೆ. ಯಾವುದೇ ಹಂತದಲ್ಲಿ ನಿಮ್ಮಿಂದ ಪಾವತಿ ಕೇಳುವುದಿಲ್ಲ. ಸ್ವಾಗತ!",
+     "lesson": "ನಿಜ: ಏನನ್ನೂ ಪಾವತಿಸಬೇಕಿಲ್ಲ ಎಂದು ಸ್ಪಷ್ಟವಾಗಿ ಹೇಳುತ್ತದೆ.",
+     "flags": []
+    }
+   }
+  },
+  {
+   "id": "jackal-11",
+   "boss": "jackal",
+   "sender": "Placement Cell",
+   "channel": "chat",
+   "text": "Reminder: Godrej pre-placement talk tomorrow at 5 pm in the Auditorium. Attendance is mandatory.",
+   "scam": false,
+   "loss": 0,
+   "lesson": "Genuine: an in-person college notice.",
+   "i18n": {
+    "hi": {
+     "text": "याद दिलाना: Godrej की प्री-प्लेसमेंट टॉक कल शाम 5 बजे ऑडिटोरियम में है। उपस्थिति अनिवार्य है।",
+     "lesson": "असली: कॉलेज की प्रत्यक्ष सूचना।",
+     "flags": []
+    },
+    "kn": {
+     "text": "ಜ್ಞಾಪನೆ: Godrej ಪ್ರೀ-ಪ್ಲೇಸ್ ಮೆಂಟ್ ಮಾತುಕತೆ ನಾಳೆ ಸಂಜೆ 5 ಕ್ಕೆ ಆಡಿಟೋರಿಯಂನಲ್ಲಿ. ಹಾಜರಾತಿ ಕಡ್ಡಾಯ.",
+     "lesson": "ನಿಜ: ಕಾಲೇಜಿನ ನೇರ ಸೂಚನೆ.",
+     "flags": []
+    }
+   }
+  },
+  {
+   "id": "cobra-01",
+   "boss": "cobra",
+   "sender": "VM-DTDCIN",
+   "channel": "sms",
+   "text": "DTDC: Parcel on hold, address incomplete. Update within 12 hrs: dtdc-address-fix.top/u",
+   "scam": true,
+   "loss": 2000,
+   "lesson": "DTDC's real site is dtdc.in. This one just borrows the name.",
+   "i18n": {
+    "hi": {
+     "text": "DTDC: पार्सल रुका है, पता अधूरा है। 12 घंटे में अपडेट करें: dtdc-address-fix.top/u",
+     "lesson": "DTDC की असली साइट dtdc.in है। यह बस नाम उधार लेती है।",
+     "flags": [
+      "पता अधूरा है",
+      "12 घंटे में अपडेट करें"
+     ]
+    },
+    "kn": {
+     "text": "DTDC: ವಿಳಾಸ ಅಪೂರ್ಣವಾಗಿದ್ದರಿಂದ ಪಾರ್ಸೆಲ್ ತಡೆಹಿಡಿಯಲಾಗಿದೆ. 12 ಗಂಟೆಗಳಲ್ಲಿ ನವೀಕರಿಸಿ: dtdc-address-fix.top/u",
+     "lesson": "DTDC ಯ ನಿಜವಾದ ಸೈಟ್ dtdc.in. ಇದು ಹೆಸರನ್ನು ಮಾತ್ರ ಎರವಲು ಪಡೆದಿದೆ.",
+     "flags": [
+      "ವಿಳಾಸ ಅಪೂರ್ಣವಾಗಿದ್ದರಿಂದ",
+      "12 ಗಂಟೆಗಳಲ್ಲಿ ನವೀಕರಿಸಿ"
+     ]
+    }
+   }
+  },
+  {
+   "id": "cobra-02",
+   "boss": "cobra",
+   "sender": "+91 77009 88221",
+   "channel": "chat",
+   "text": "Your package at Mumbai airport customs needs Rs 2,950 clearance. Pay on 7700988221 UPI to receive.",
+   "scam": true,
+   "loss": 2950,
+   "lesson": "Customs never takes payment on a personal UPI number.",
+   "i18n": {
+    "hi": {
+     "text": "मुंबई एयरपोर्ट कस्टम्स पर आपके पैकेज की क्लियरेंस के लिए Rs 2,950 चाहिए। पाने के लिए UPI 7700988221 पर भुगतान करें।",
+     "lesson": "कस्टम्स किसी निजी UPI नंबर पर पैसे नहीं लेता।",
+     "flags": [
+      "क्लियरेंस के लिए Rs 2,950 चाहिए",
+      "UPI 7700988221 पर भुगतान करें"
+     ]
+    },
+    "kn": {
+     "text": "ಮುಂಬೈ ವಿಮಾನ ನಿಲ್ದಾಣದ ಕಸ್ಟಮ್ಸ್ ನಲ್ಲಿ ನಿಮ್ಮ ಪ್ಯಾಕೇಜ್ ಬಿಡುಗಡೆಗೆ Rs 2,950 ಬೇಕು. ಪಡೆಯಲು UPI 7700988221 ಗೆ ಪಾವತಿಸಿ.",
+     "lesson": "ಕಸ್ಟಮ್ಸ್ ಯಾವುದೇ ವೈಯಕ್ತಿಕ UPI ಸಂಖ್ಯೆಯಲ್ಲಿ ಹಣ ತೆಗೆದುಕೊಳ್ಳುವುದಿಲ್ಲ.",
+     "flags": [
+      "Rs 2,950 ಬೇಕು",
+      "UPI 7700988221 ಗೆ ಪಾವತಿಸಿ"
+     ]
+    }
+   }
+  },
+  {
+   "id": "cobra-03",
+   "boss": "cobra",
+   "sender": "AD-INDPST",
+   "channel": "sms",
+   "text": "India Post: delivery failed twice. Reschedule at indiapost-reship.xyz or parcel will be returned.",
+   "scam": true,
+   "loss": 1500,
+   "lesson": "The real site ends in .gov.in. A .xyz address is not India Post.",
+   "i18n": {
+    "hi": {
+     "text": "India Post: डिलीवरी दो बार विफल रही। indiapost-reship.xyz पर पुनः शेड्यूल करें वरना पार्सल लौट जाएगा।",
+     "lesson": "असली साइट .gov.in पर खत्म होती है। .xyz इंडिया पोस्ट नहीं है।",
+     "flags": [
+      "डिलीवरी दो बार विफल रही",
+      "पार्सल लौट जाएगा"
+     ]
+    },
+    "kn": {
+     "text": "India Post: ವಿತರಣೆ ಎರಡು ಬಾರಿ ವಿಫಲವಾಗಿದೆ. indiapost-reship.xyz ನಲ್ಲಿ ಮರು ನಿಗದಿ ಮಾಡಿ, ಇಲ್ಲದಿದ್ದರೆ ಪಾರ್ಸೆಲ್ ವಾಪಸ್ ಹೋಗುತ್ತದೆ.",
+     "lesson": "ನಿಜವಾದ ಸೈಟ್ .gov.in ನಲ್ಲಿ ಕೊನೆಗೊಳ್ಳುತ್ತದೆ. .xyz India Post ಅಲ್ಲ.",
+     "flags": [
+      "ವಿತರಣೆ ಎರಡು ಬಾರಿ ವಿಫಲವಾಗಿದೆ",
+      "ಪಾರ್ಸೆಲ್ ವಾಪಸ್ ಹೋಗುತ್ತದೆ"
+     ]
+    }
+   }
+  },
+  {
+   "id": "cobra-04",
+   "boss": "cobra",
+   "sender": "+91 99888 12012",
+   "channel": "chat",
+   "text": "Electricity Dept: your connection will be disconnected at 9:30 pm tonight. Call Mr Patil immediately.",
+   "scam": true,
+   "loss": 3000,
+   "lesson": "Utilities don't disconnect by SMS at night. 'Call Mr Patil' is the hook.",
+   "i18n": {
+    "hi": {
+     "text": "बिजली विभाग: आज रात 9:30 बजे आपका कनेक्शन काट दिया जाएगा। तुरंत श्री पाटिल को कॉल करें।",
+     "lesson": "बिजली विभाग रात में SMS से कनेक्शन नहीं काटता। 'श्री पाटिल को कॉल करें' ही जाल है।",
+     "flags": [
+      "आज रात 9:30 बजे आपका कनेक्शन काट दिया जाएगा",
+      "तुरंत श्री पाटिल को कॉल करें"
+     ]
+    },
+    "kn": {
+     "text": "ವಿದ್ಯುತ್ ಇಲಾಖೆ: ಇಂದು ರಾತ್ರಿ 9:30 ಕ್ಕೆ ನಿಮ್ಮ ಸಂಪರ್ಕ ಕಡಿತಗೊಳ್ಳುತ್ತದೆ. ತಕ್ಷಣ ಶ್ರೀ ಪಾಟೀಲ್ ಅವರಿಗೆ ಕರೆ ಮಾಡಿ.",
+     "lesson": "ವಿದ್ಯುತ್ ಇಲಾಖೆ ರಾತ್ರಿ SMS ಮೂಲಕ ಸಂಪರ್ಕ ಕಡಿತ ಮಾಡುವುದಿಲ್ಲ. 'ಶ್ರೀ ಪಾಟೀಲ್ ಅವರಿಗೆ ಕರೆ ಮಾಡಿ' ಎಂಬುದೇ ಬಲೆ.",
+     "flags": [
+      "ಇಂದು ರಾತ್ರಿ 9:30 ಕ್ಕೆ ನಿಮ್ಮ ಸಂಪರ್ಕ ಕಡಿತಗೊಳ್ಳುತ್ತದೆ",
+      "ತಕ್ಷಣ ಶ್ರೀ ಪಾಟೀಲ್ ಅವರಿಗೆ ಕರೆ ಮಾಡಿ"
+     ]
+    }
+   }
+  },
+  {
+   "id": "cobra-05",
+   "boss": "cobra",
+   "sender": "VK-BLUEDT",
+   "channel": "sms",
+   "text": "BlueDart: Pay Rs 25 redelivery charge here: bit.ly/bdrs25 to receive your shipment.",
+   "scam": true,
+   "loss": 1000,
+   "lesson": "Tiny fee, hidden link: it's after your card details.",
+   "i18n": {
+    "hi": {
+     "text": "BlueDart: शिपमेंट पाने के लिए यहाँ Rs 25 रीडिलीवरी शुल्क दें: bit.ly/bdrs25",
+     "lesson": "छोटा शुल्क, छुपा लिंक: निशाना आपके कार्ड की जानकारी है।",
+     "flags": [
+      "Rs 25 रीडिलीवरी शुल्क दें"
+     ]
+    },
+    "kn": {
+     "text": "BlueDart: ನಿಮ್ಮ ಸರಕು ಪಡೆಯಲು ಇಲ್ಲಿ Rs 25 ಮರುವಿತರಣೆ ಶುಲ್ಕ ಪಾವತಿಸಿ: bit.ly/bdrs25",
+     "lesson": "ಸಣ್ಣ ಶುಲ್ಕ, ಮರೆಮಾಡಿದ ಲಿಂಕ್: ಗುರಿ ನಿಮ್ಮ ಕಾರ್ಡ್ ವಿವರ.",
+     "flags": [
+      "Rs 25 ಮರುವಿತರಣೆ ಶುಲ್ಕ ಪಾವತಿಸಿ"
+     ]
+    }
+   }
+  },
+  {
+   "id": "cobra-06",
+   "boss": "cobra",
+   "sender": "+91 90909 12345",
+   "channel": "chat",
+   "text": "This is FedEx. Your parcel to Taiwan contains illegal items. Police case registered. Press 1 to speak to officer.",
+   "scam": true,
+   "loss": 3500,
+   "lesson": "'Drug parcel' calls are a known fear scam. Hang up and call 1930.",
+   "i18n": {
+    "hi": {
+     "text": "यह FedEx है। ताइवान जा रहे आपके पार्सल में अवैध सामान है। पुलिस केस दर्ज हुआ है। अधिकारी से बात करने के लिए 1 दबाएँ।",
+     "lesson": "'ड्रग पार्सल' वाले कॉल डराने वाला जाना-माना स्कैम हैं। फ़ोन काटें और 1930 पर कॉल करें।",
+     "flags": [
+      "अवैध सामान है",
+      "पुलिस केस दर्ज हुआ है"
+     ]
+    },
+    "kn": {
+     "text": "ಇದು FedEx. ತೈವಾನ್ ಗೆ ಹೋಗುವ ನಿಮ್ಮ ಪಾರ್ಸೆಲ್ ನಲ್ಲಿ ಅಕ್ರಮ ವಸ್ತುಗಳಿವೆ. ಪೊಲೀಸ್ ಪ್ರಕರಣ ದಾಖಲಾಗಿದೆ. ಅಧಿಕಾರಿಯೊಂದಿಗೆ ಮಾತನಾಡಲು 1 ಒತ್ತಿ.",
+     "lesson": "'ಡ್ರಗ್ಸ್ ಪಾರ್ಸೆಲ್' ಕರೆಗಳು ಭಯ ಹುಟ್ಟಿಸುವ ಪ್ರಸಿದ್ಧ ವಂಚನೆ. ಕರೆ ಕಡಿತಗೊಳಿಸಿ 1930 ಗೆ ಕರೆ ಮಾಡಿ.",
+     "flags": [
+      "ಅಕ್ರಮ ವಸ್ತುಗಳಿವೆ",
+      "ಪೊಲೀಸ್ ಪ್ರಕರಣ ದಾಖಲಾಗಿದೆ"
+     ]
+    }
+   }
+  },
+  {
+   "id": "cobra-07",
+   "boss": "cobra",
+   "sender": "TM-GASAGN",
+   "channel": "sms",
+   "text": "Gas supply will be stopped due to unpaid bill. Update details now: gas-bill-update.click",
+   "scam": true,
+   "loss": 2000,
+   "lesson": "Check your gas bill in the official app, never via a link like this.",
+   "i18n": {
+    "hi": {
+     "text": "गैस आपूर्ति बकाया बिल के कारण बंद होगी। अभी विवरण अपडेट करें: gas-bill-update.click",
+     "lesson": "गैस का बिल आधिकारिक ऐप में देखें, ऐसे लिंक से कभी नहीं।",
+     "flags": [
+      "गैस आपूर्ति बकाया बिल के कारण बंद होगी"
+     ]
+    },
+    "kn": {
+     "text": "ಬಾಕಿ ಬಿಲ್ ಕಾರಣ ಗ್ಯಾಸ್ ಪೂರೈಕೆ ನಿಲ್ಲಿಸಲಾಗುತ್ತದೆ. ಈಗಲೇ ವಿವರ ನವೀಕರಿಸಿ: gas-bill-update.click",
+     "lesson": "ಗ್ಯಾಸ್ ಬಿಲ್ ಅನ್ನು ಅಧಿಕೃತ ಆ್ಯಪ್ ನಲ್ಲಿ ನೋಡಿ, ಇಂಥ ಲಿಂಕ್ ಮೂಲಕ ಎಂದಿಗೂ ಅಲ್ಲ.",
+     "flags": [
+      "ಗ್ಯಾಸ್ ಪೂರೈಕೆ ನಿಲ್ಲಿಸಲಾಗುತ್ತದೆ"
+     ]
+    }
+   }
+  },
+  {
+   "id": "cobra-08",
+   "boss": "cobra",
+   "sender": "VM-DLVRY",
+   "channel": "sms",
+   "text": "Delhivery: Your Myntra order is out for delivery today between 2 and 6 pm. The agent will call you.",
+   "scam": false,
+   "loss": 0,
+   "lesson": "Genuine: no link, no payment, just a delivery window.",
+   "i18n": {
+    "hi": {
+     "text": "Delhivery: आपका Myntra ऑर्डर आज दोपहर 2 से 6 के बीच डिलीवरी के लिए निकला है। एजेंट आपको कॉल करेगा।",
+     "lesson": "असली: न लिंक, न भुगतान, बस डिलीवरी का समय।",
+     "flags": []
+    },
+    "kn": {
+     "text": "Delhivery: ನಿಮ್ಮ Myntra ಆರ್ಡರ್ ಇಂದು ಮಧ್ಯಾಹ್ನ 2 ರಿಂದ 6 ರ ನಡುವೆ ವಿತರಣೆಗೆ ಹೊರಟಿದೆ. ಏಜೆಂಟ್ ನಿಮಗೆ ಕರೆ ಮಾಡುತ್ತಾರೆ.",
+     "lesson": "ನಿಜ: ಲಿಂಕ್ ಇಲ್ಲ, ಪಾವತಿ ಇಲ್ಲ, ವಿತರಣೆಯ ಸಮಯ ಮಾತ್ರ.",
+     "flags": []
+    }
+   }
+  },
+  {
+   "id": "cobra-09",
+   "boss": "cobra",
+   "sender": "AM-AMZNIN",
+   "channel": "sms",
+   "text": "Amazon: Your package was delivered to the front door. Rate your delivery experience in the app.",
+   "scam": false,
+   "loss": 0,
+   "lesson": "Genuine: it sends you to the app and asks for nothing else.",
+   "i18n": {
+    "hi": {
+     "text": "Amazon: आपका पैकेज दरवाज़े पर डिलीवर हो गया। ऐप में डिलीवरी अनुभव को रेट करें।",
+     "lesson": "असली: ऐप पर भेजता है और कुछ और नहीं माँगता।",
+     "flags": []
+    },
+    "kn": {
+     "text": "Amazon: ನಿಮ್ಮ ಪ್ಯಾಕೇಜ್ ಬಾಗಿಲಿಗೆ ತಲುಪಿಸಲಾಗಿದೆ. ಆ್ಯಪ್ ನಲ್ಲಿ ವಿತರಣೆ ಅನುಭವಕ್ಕೆ ರೇಟಿಂಗ್ ಕೊಡಿ.",
+     "lesson": "ನಿಜ: ಆ್ಯಪ್ ಗೆ ಕಳುಹಿಸುತ್ತದೆ, ಬೇರೇನೂ ಕೇಳುವುದಿಲ್ಲ.",
+     "flags": []
+    }
+   }
+  },
+  {
+   "id": "cobra-10",
+   "boss": "cobra",
+   "sender": "BS-BESCOM",
+   "channel": "sms",
+   "text": "BESCOM: Your bill of Rs 1,420 for Oct is due on 25 Nov. Pay in the BESCOM app or at the counter.",
+   "scam": false,
+   "loss": 0,
+   "lesson": "Genuine: a due date and the official app, with no threat.",
+   "i18n": {
+    "hi": {
+     "text": "BESCOM: अक्टूबर का Rs 1,420 का बिल 25 नवंबर को देय है। BESCOM ऐप या काउंटर पर भुगतान करें।",
+     "lesson": "असली: देय तिथि और आधिकारिक ऐप, कोई धमकी नहीं।",
+     "flags": []
+    },
+    "kn": {
+     "text": "BESCOM: ಅಕ್ಟೋಬರ್ ನ Rs 1,420 ಬಿಲ್ ನವೆಂಬರ್ 25 ರಂದು ಬಾಕಿ. BESCOM ಆ್ಯಪ್ ಅಥವಾ ಕೌಂಟರ್ ನಲ್ಲಿ ಪಾವತಿಸಿ.",
+     "lesson": "ನಿಜ: ಬಾಕಿ ದಿನಾಂಕ ಮತ್ತು ಅಧಿಕೃತ ಆ್ಯಪ್, ಬೆದರಿಕೆ ಇಲ್ಲ.",
+     "flags": []
+    }
+   }
+  },
+  {
+   "id": "cobra-11",
+   "boss": "cobra",
+   "sender": "Dad",
+   "channel": "chat",
+   "text": "Courier boy called, I told him to leave it with the security. Will you check at 6?",
+   "scam": false,
+   "loss": 0,
+   "lesson": "Genuine: normal family chat about a parcel.",
+   "i18n": {
+    "hi": {
+     "text": "कूरियर वाले का फ़ोन आया था, मैंने कहा गार्ड के पास छोड़ दो। 6 बजे देख लोगे?",
+     "lesson": "असली: पार्सल के बारे में परिवार की सामान्य बातचीत।",
+     "flags": []
+    },
+    "kn": {
+     "text": "ಕೊರಿಯರ್ ಹುಡುಗ ಕರೆ ಮಾಡಿದ್ದ, ಸೆಕ್ಯುರಿಟಿ ಬಳಿ ಬಿಟ್ಟುಹೋಗಲು ಹೇಳಿದೆ. 6 ಕ್ಕೆ ನೋಡ್ತೀಯಾ?",
+     "lesson": "ನಿಜ: ಪಾರ್ಸೆಲ್ ಬಗ್ಗೆ ಕುಟುಂಬದ ಸಾಮಾನ್ಯ ಮಾತುಕತೆ.",
+     "flags": []
+    }
+   }
+  }
+ ]
+}
