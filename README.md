@@ -34,18 +34,9 @@ Test the live application right now in your browser:
 
 ScamDojo bridges forensic cybersecurity with retro-arcade mechanics. Rather than reading boring bullet points, players build muscle memory by fighting bosses and racing against AI clocks.
 
-```
-       __________________________________________________________________
-      |  [♥ 10,000 HP]    STAGE 03 / 06    ROUND TIMER: [████████░░] 12s |
-      |==================================================================|
-      |  OCTOPUS: "Sir, unauthorized transaction of ₹49,999 detected!   |
-      |            Share your OTP immediately to cancel charge!"         |
-      |------------------------------------------------------------------|
-      |   [ CRITICAL HIT! Flagged: "Share your OTP" (+200 XP) ]          |
-      |==================================================================|
-      |   [ 🔴 SCAM ]               [ ⚡ SLOW-TIME ]          [ 🟢 LEGIT ] |
-      |__________________________________________________________________|
-```
+<div align="center">
+  <img src="docs/assets/gameplay_hud.jpg" alt="ScamDojo Boss Rush Battle Screen Mockup" width="100%" style="border-radius: 12px; border: 3px solid #1B1F4B; box-shadow: 6px 6px 0px #1B1F4B; margin: 12px 0;" />
+</div>
 
 ### 1. 🐙 Boss Rush (`/#/play`)
 Defend your **₹10,000 virtual wallet** against 5 notorious Indian fraud archetypes. Tapping suspected red-flag phrases directly on the card scores **Critical Hits**!
@@ -55,6 +46,10 @@ Defend your **₹10,000 virtual wallet** against 5 notorious Indian fraud archet
 * 🐺 **Job Offer Jackal:** Work-from-home YouTube like / Telegram daily task schemes.
 * 🐍 **Courier Cobra:** Customs hold fees and India Post address re-delivery traps.
 * **Power-Ups:** Use **Hint** to illuminate suspicious links or **Slow-Time** to freeze the ticking card timer.
+
+<div align="center">
+  <img src="docs/assets/boss_roster.svg" alt="ScamDojo 5 Scammer Bosses Roster" width="100%" style="border-radius: 12px; border: 3px solid #1B1F4B; box-shadow: 6px 6px 0px #1B1F4B; margin: 14px 0 20px 0;" />
+</div>
 
 ### 2. ⚔️ Beat the AI — Red-Flag Race (`/#/duel`)
 Human vs. Machine speedrun. You and ScamDojo's real-time inference engine hunt the same message simultaneously.
@@ -81,32 +76,9 @@ Daily challenge to maintain your dojo streak. The engine tracks missed categorie
 
 ScamDojo operates on a **3-Pillar Hybrid Fusion Architecture** operating at **0.6 ms median latency** with zero external heavy ML dependencies.
 
-```mermaid
-flowchart TD
-    A["Raw Message / OCR / UPI QR"] --> B["Normalizer & De-obfuscator<br/>(Strips Homoglyphs, Zero-Width, Leet & Spaced text)"]
-    
-    B --> C1["Pure-Python Text Classifier<br/>(TF-IDF + Learned Word Weights)"]
-    B --> C2["25 India-Specific Expert Rules<br/>(KYC, OTP, Utility cuts, Family traps)"]
-    B --> C3["Link & Brand Autopsy<br/>(38+ Indian Brands, Typosquatting, APKs)"]
-    
-    C1 --> D["Noisy-OR Probability Fusion<br/>risk = 1 - (1 - 0.85*T)(1 - R)(1 - 0.95*L)"]
-    C2 --> D
-    C3 --> D
-    
-    D --> E["Calibrated Verdict & Confidence"]
-    D --> F["1930 / Cybercrime Evidence Packet"]
-    D --> G["Interactive Visual Red-Flag Highlights"]
-
-    style A fill:#DCE4FF,stroke:#1B1F4B,stroke-width:2px;
-    style B fill:#FFE9A6,stroke:#1B1F4B,stroke-width:2px;
-    style C1 fill:#FFF,stroke:#1B1F4B,stroke-width:2px;
-    style C2 fill:#FFF,stroke:#1B1F4B,stroke-width:2px;
-    style C3 fill:#FFF,stroke:#1B1F4B,stroke-width:2px;
-    style D fill:#FFB400,stroke:#1B1F4B,stroke-width:3px;
-    style E fill:#D3F0E0,stroke:#1B1F4B,stroke-width:2px;
-    style F fill:#FADAEA,stroke:#1B1F4B,stroke-width:2px;
-    style G fill:#FBD9D6,stroke:#1B1F4B,stroke-width:2px;
-```
+<div align="center">
+  <img src="docs/assets/architecture.svg" alt="ScamDojo 3-Pillar Hybrid Fusion Architecture" width="100%" style="border-radius: 12px; border: 3px solid #1B1F4B; box-shadow: 6px 6px 0px #1B1F4B; margin: 16px 0 24px 0;" />
+</div>
 
 ### Forensic Pillars:
 1. **De-Obfuscation Normalizer (`engine/normalize.py`):** Unravels evasion tricks like Cyrillic homoglyphs (`Раytm`), leetspeak (`b4nk`), zero-width Unicode characters, and spaced-out keywords (`K Y C`) while preserving original character offsets for UI rendering.
