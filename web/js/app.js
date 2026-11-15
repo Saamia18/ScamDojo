@@ -5,6 +5,7 @@ import { toggleSound } from './sound.js';
 import { toggleAutoRead, stop as stopSpeech } from './speech.js';
 import { acct, init as initAccount, onAccount } from './account.js';
 import { at } from './account_text.js';
+import { startSimulation } from './simulation.js';
 
 const ROUTES = {
   home: () => import('./pages/home.js'), account: () => import('./pages/account.js'), scan: () => import('./pages/scan.js'), play: () => import('./pages/play.js'),
@@ -24,6 +25,13 @@ function chrome(active) {
   clear(tabs).append(...NAV.map(([r, k]) => h('a', { href: '#/' + r, 'aria-current': r === active ? 'page' : null }, t(k))));
   const tools = document.getElementById('tools');
   clear(tools);
+  tools.append(h('button', {
+    class: 'pill simulation-pill',
+    id: 'btn-run-simulation',
+    type: 'button',
+    title: 'Watch 60s Guided Demo',
+    onclick: () => startSimulation(),
+  }, '🎬 Run Simulation'));
   LANGS.forEach(([code, label]) => tools.append(h('button', { class: 'pill', type: 'button', 'aria-pressed': String(store.lang === code), 'aria-label': 'Language ' + label,
     onclick: () => { store.lang = code; save(); applyLang(); go(); } }, label)));
   const who = acct.user ? acct.user.display_name.slice(0, 10) : at('nav');

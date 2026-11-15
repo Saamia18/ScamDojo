@@ -1,0 +1,362 @@
+/* ==========================================================================
+   ScamDojo Autopilot Mode — Retro-Arcade Virtual Cursor & Neobrutalist HUD
+   ========================================================================== */
+
+/* ---------- 1. Pulsing Trigger Buttons ---------- */
+.simulation-pill,
+#btn-run-simulation {
+  background: #FFB400 !important;
+  color: #1B1F4B !important;
+  font-weight: 800 !important;
+  border: 2px solid #1B1F4B !important;
+  box-shadow: 2px 2px 0px #1B1F4B;
+  cursor: pointer;
+  animation: sim-pill-pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.simulation-pill:hover,
+#btn-run-simulation:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 4px 4px 0px #1B1F4B;
+  background: #FFC229 !important;
+}
+
+@keyframes sim-pill-pulse {
+  0%, 100% {
+    box-shadow: 2px 2px 0px #1B1F4B, 0 0 0 0 rgba(255, 180, 0, 0.7);
+  }
+  50% {
+    box-shadow: 2px 2px 0px #1B1F4B, 0 0 0 8px rgba(255, 180, 0, 0);
+  }
+}
+
+.sim-hero-btn {
+  background: #FFB400 !important;
+  color: #1B1F4B !important;
+  border: 3px solid #1B1F4B !important;
+  box-shadow: 4px 4px 0px #1B1F4B !important;
+  font-weight: 800 !important;
+  font-size: 1.05rem !important;
+  letter-spacing: 0.02em;
+  animation: sim-hero-pulse 2.4s infinite;
+  transition: transform 0.15s ease, box-shadow 0.15s ease !important;
+}
+
+.sim-hero-btn:hover {
+  transform: translate(-2px, -2px) scale(1.02) !important;
+  box-shadow: 6px 6px 0px #1B1F4B !important;
+  background: #FFC229 !important;
+}
+
+@keyframes sim-hero-pulse {
+  0%, 100% {
+    box-shadow: 4px 4px 0px #1B1F4B, 0 0 0 0 rgba(255, 180, 0, 0.6);
+  }
+  50% {
+    box-shadow: 4px 4px 0px #1B1F4B, 0 0 0 12px rgba(255, 180, 0, 0);
+  }
+}
+
+/* ---------- 2. Virtual Arcade Cursor ---------- */
+#sim-cursor {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 32px;
+  height: 32px;
+  pointer-events: none;
+  z-index: 1000000;
+  transition: transform 0.5s cubic-bezier(0.22, 1, 0.36, 1);
+  will-change: transform;
+  filter: drop-shadow(2px 3px 0px rgba(27, 31, 75, 0.8)) drop-shadow(0 0 10px rgba(255, 180, 0, 0.6));
+}
+
+#sim-cursor svg {
+  width: 100%;
+  height: 100%;
+  transform-origin: 0 0;
+  transition: transform 0.12s ease;
+}
+
+#sim-cursor.sim-clicking svg {
+  transform: scale(0.82) rotate(-8deg);
+}
+
+.sim-ripple {
+  position: fixed;
+  border-radius: 50%;
+  border: 3px solid #FFB400;
+  pointer-events: none;
+  z-index: 999999;
+  animation: sim-ripple-grow 0.55s cubic-bezier(0.1, 0.8, 0.3, 1) forwards;
+  box-shadow: 0 0 12px rgba(214, 36, 127, 0.8);
+}
+
+@keyframes sim-ripple-grow {
+  0% {
+    width: 8px;
+    height: 8px;
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  100% {
+    width: 68px;
+    height: 68px;
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(1.8);
+    border-color: #D6247F;
+  }
+}
+
+/* ---------- 3. Fixed HUD Controller ---------- */
+#sim-hud {
+  position: fixed;
+  top: 14px;
+  right: 18px;
+  z-index: 999990;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: #1B1F4B;
+  border: 3px solid #FFB400;
+  border-radius: 999px;
+  padding: 6px 14px;
+  box-shadow: 4px 4px 0px #1B1F4B;
+  font-family: 'Hind', system-ui, sans-serif;
+  color: #FFFDF8;
+  animation: sim-hud-slidein 0.35s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes sim-hud-slidein {
+  from {
+    transform: translateY(-40px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.sim-hud-badge {
+  font-family: 'Bungee', sans-serif;
+  font-size: 0.85rem;
+  letter-spacing: 0.04em;
+  color: #FFB400;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding-right: 6px;
+  border-right: 2px solid rgba(255, 253, 248, 0.2);
+}
+
+.sim-hud-badge .sim-dot {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: #E2362F;
+  animation: sim-dot-blink 1s infinite alternate;
+}
+
+@keyframes sim-dot-blink {
+  from { opacity: 0.4; transform: scale(0.9); }
+  to { opacity: 1; transform: scale(1.2); }
+}
+
+.sim-hud-btn {
+  background: rgba(255, 253, 248, 0.1);
+  border: 2px solid #FFFDF8;
+  color: #FFFDF8;
+  border-radius: 999px;
+  padding: 4px 10px;
+  font-size: 0.82rem;
+  font-weight: 700;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  transition: all 0.15s ease;
+}
+
+.sim-hud-btn:hover {
+  background: #FFB400;
+  color: #1B1F4B;
+  border-color: #FFB400;
+  transform: translateY(-1px);
+}
+
+.sim-hud-btn.sim-hud-exit {
+  border-color: #E2362F;
+  color: #FFFDF8;
+  background: #E2362F;
+}
+
+.sim-hud-btn.sim-hud-exit:hover {
+  background: #FF4740;
+  border-color: #FF4740;
+  color: #FFFFFF;
+}
+
+/* ---------- 4. Explainer Dialogue Card ---------- */
+#sim-dialog {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  max-width: 440px;
+  z-index: 999980;
+  background: #1B1F4B;
+  border: 3px solid #FFB400;
+  border-radius: 12px;
+  padding: 16px 20px;
+  color: #FFFDF8;
+  box-shadow: 6px 6px 0px rgba(27, 31, 75, 0.7);
+  animation: sim-dialog-pop 0.3s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+  pointer-events: auto;
+}
+
+@keyframes sim-dialog-pop {
+  0% {
+    transform: translateY(30px) scale(0.95);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0) scale(1);
+    opacity: 1;
+  }
+}
+
+.sim-dialog-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.sim-dialog-title {
+  font-family: 'Bungee', sans-serif;
+  font-size: 0.95rem;
+  color: #FFB400;
+  letter-spacing: 0.03em;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.sim-dialog-progress-track {
+  width: 100%;
+  height: 4px;
+  background: rgba(255, 253, 248, 0.15);
+  border-radius: 2px;
+  margin: 6px 0 10px 0;
+  overflow: hidden;
+}
+
+.sim-dialog-progress-fill {
+  height: 100%;
+  background: #D6247F;
+  width: 0%;
+  transition: width 0.3s ease;
+}
+
+.sim-dialog-body {
+  font-family: 'Hind', system-ui, sans-serif;
+  font-size: 0.92rem;
+  line-height: 1.45;
+  color: #EDE8D0;
+  margin: 0 0 12px 0;
+}
+
+.sim-dialog-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: rgba(46, 134, 171, 0.25);
+  border: 1.5px solid #2E86AB;
+  color: #72C7EB;
+  border-radius: 6px;
+  padding: 3px 8px;
+  font-size: 0.76rem;
+  font-weight: 700;
+  font-family: ui-monospace, Menlo, Consolas, monospace;
+}
+
+/* ---------- 5. Finale Celebration Banner ---------- */
+#sim-finale {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.9);
+  background: #1B1F4B;
+  border: 4px solid #FFB400;
+  border-radius: 16px;
+  padding: 32px 40px;
+  text-align: center;
+  color: #FFFDF8;
+  box-shadow: 10px 10px 0px #1B1F4B, 0 0 40px rgba(255, 180, 0, 0.4);
+  z-index: 1000005;
+  animation: sim-finale-blast 0.45s cubic-bezier(0.18, 0.89, 0.32, 1.28) forwards;
+  max-width: 540px;
+  width: 90%;
+}
+
+@keyframes sim-finale-blast {
+  0% {
+    transform: translate(-50%, -50%) scale(0.7);
+    opacity: 0;
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 1;
+  }
+}
+
+.sim-finale-icon {
+  font-size: 3.5rem;
+  margin-bottom: 12px;
+  display: inline-block;
+  animation: sim-trophy-bounce 1s infinite alternate;
+}
+
+@keyframes sim-trophy-bounce {
+  from { transform: translateY(0); }
+  to { transform: translateY(-8px) rotate(5deg); }
+}
+
+.sim-finale-title {
+  font-family: 'Bungee', sans-serif;
+  font-size: 1.5rem;
+  color: #FFB400;
+  margin: 0 0 10px 0;
+  line-height: 1.25;
+}
+
+.sim-finale-sub {
+  font-size: 1rem;
+  color: #EDE8D0;
+  margin: 0 0 20px 0;
+  line-height: 1.5;
+}
+
+/* Responsive adjustment for small screens */
+@media (max-width: 600px) {
+  #sim-hud {
+    top: 8px;
+    right: 8px;
+    padding: 4px 10px;
+  }
+  .sim-hud-badge {
+    font-size: 0.75rem;
+  }
+  #sim-dialog {
+    bottom: 12px;
+    right: 12px;
+    left: 12px;
+    max-width: none;
+    padding: 12px 16px;
+  }
+}

@@ -2,6 +2,7 @@ import { h } from '../ui.js';
 import { buildScanner } from '../scanner.js';
 import { t } from '../i18n.js';
 import { store, level, streakDays } from '../store.js';
+import { startSimulation } from '../simulation.js';
 
 export function render(root) {
   const out = h('div', { class: 'stack', style: { marginTop: '26px' } });
@@ -11,6 +12,8 @@ export function render(root) {
       h('div', {},
         h('h1', {}, t('hero_title')),
         h('p', { class: 'lead' }, t('hero_sub')),
+        h('div', { class: 'row', style: { marginBottom: '16px', marginTop: '4px' } },
+          h('button', { class: 'btn big sim-hero-btn', type: 'button', id: 'hero-run-simulation', onclick: () => startSimulation() }, '🎬 Watch Live Simulation (60s Autopilot)')),
         h('div', { class: 'row' },
           h('span', { class: 'chip' }, 'EN · हिन्दी · ಕನ್ನಡ'), h('span', { class: 'chip' }, '👤 Login optional'), h('span', { class: 'chip' }, '🔒 Messages never stored'))),
       buildScanner(out, { initial: sample })),
