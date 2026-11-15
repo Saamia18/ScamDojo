@@ -8,6 +8,7 @@
 An arcade-infused cyber defense training dojo and sub-millisecond AI forensic engine designed specifically for Indian digital fraud vectors (SMS, WhatsApp, fake KYC notices, and malicious UPI payment QR codes).
 
 [![Live Demo](https://img.shields.io/badge/🎮_Live_Arcade-scamdojo.onrender.com-FFB400?style=for-the-badge&logo=render&logoColor=1B1F4B)](https://scamdojo.onrender.com)
+[![Autopilot Demo](https://img.shields.io/badge/🎬_Simulation-60s_Autopilot_Tour-FFB400?style=for-the-badge&logo=googleplay&logoColor=1B1F4B)](https://scamdojo.onrender.com)
 [![Test Suite](https://img.shields.io/badge/⚔️_Tests-55%2F55_Passing-1E9E5A?style=for-the-badge&logo=checkmarx&logoColor=white)](https://github.com/Saamia18/ScamDojo)
 [![Engine Latency](https://img.shields.io/badge/⚡_Inference-0.6_ms-D6247F?style=for-the-badge&logo=speedtest&logoColor=white)](https://scamdojo.onrender.com/#/hood)
 [![Python Version](https://img.shields.io/badge/Python-3.12+-1B1F4B?style=for-the-badge&logo=python&logoColor=FFB400)](https://python.org)
@@ -15,7 +16,7 @@ An arcade-infused cyber defense training dojo and sub-millisecond AI forensic en
 
 <br/>
 
-[🕹️ Play Live Demo](https://scamdojo.onrender.com) • [🎮 Game Modes](#-cyber-dojo-game-modes) • [🛡️ AI Forensic Engine](#-the-forensic-ai-engine) • [📊 Battle Benchmarks](#-battle-metrics--calibration) • [🚀 Quickstart](#-quickstart-arcade-setup) • [📜 1930 Incident Reporting](#-1930--cybercrimegovin-evidence-packet)
+[🕹️ Play Live Demo](https://scamdojo.onrender.com) • [🎬 Autopilot Simulation](#-60-second-autopilot-simulation) • [🎮 Game Modes](#-cyber-dojo-game-modes) • [🛡️ AI Forensic Engine](#-the-forensic-ai-engine) • [📊 Battle Benchmarks](#-battle-metrics--calibration) • [🚀 Quickstart](#-quickstart-arcade-setup)
 
 </div>
 
@@ -25,6 +26,9 @@ An arcade-infused cyber defense training dojo and sub-millisecond AI forensic en
 
 Test the live application right now in your browser:
 👉 **[https://scamdojo.onrender.com](https://scamdojo.onrender.com)**
+
+> 💡 **For Hackathon Judges (60-Second Hands-Free Tour):**
+> Don't have time to explore every tab manually? Simply click the glowing **`🎬 Run Simulation`** button in the top navigation bar of the live app! An autonomous arcade cursor will take the wheel—typing realistic scam SMS samples, triggering real-time 0.6ms forensic scans, scoring Critical Hits in Boss Rush, simulating 1v1 WebSockets, and generating an official 1930 evidence brief in under a minute!
 
 > **Pro-Tip:** Open the link on two different phones or browser windows to challenge a friend in **Live 1v1 Multiplayer Duels** over WebSockets!
 
@@ -244,8 +248,8 @@ The repository includes ready-to-deploy configs for **Render**, **Railway**, or 
   <tbody>
     <tr>
       <td align="center"><b>🎨 Client &amp; HUD</b></td>
-      <td><code>Vanilla ES Modules</code> • <code>CSS3</code></td>
-      <td>Zero build step, instant hot reload, 16-bit neobrutalist arcade design system with high-contrast accessibility.</td>
+      <td><code>Vanilla ES Modules</code> • <code>CSS3</code> • <code>Autopilot Simulation Engine</code></td>
+      <td>Zero build step, instant hot reload, 16-bit neobrutalist arcade design system with high-contrast accessibility, and hands-free automated evaluator tour.</td>
     </tr>
     <tr>
       <td align="center"><b>🔊 Audio &amp; Voice</b></td>
